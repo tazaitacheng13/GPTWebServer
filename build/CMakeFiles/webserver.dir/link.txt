@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/webserver.dir/http/http_conn.cpp.o CMakeFiles/webserver.dir/main_nonactive.cpp.o CMakeFiles/webserver.dir/db/db.cpp.o CMakeFiles/webserver.dir/log/log.cpp.o  -o webserver  -Wl,-rpath,/root/anaconda3/envs/AI/lib -lpthread -lmysqlclient /root/anaconda3/envs/AI/lib/libpython3.9.so /root/anaconda3/envs/AI/lib/libpython3.9.so 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Failed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .message-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .message-container h1 {
+            color: #ff0000;
+            margin-bottom: 20px;
+        }
+    </style>
+    <script>
+        // 在页面加载后设置2秒的计时器，之后重定向回登录页面
+        window.onload = function() {
+            setTimeout(function() {
+                window.location.href = 'index.html'; // 修改为您的登录页面路径
+            }, 2000);
+        }
+    </script>
+</head>
+<body>
+    <div class="message-container">
+        <h1>Invalid username or password!</h1>
+        <p>Redirecting back to login page in 2 seconds...</p>
+    </div>
+</body>
+</html>

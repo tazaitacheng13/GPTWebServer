@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: right;
+            font-size: 18px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .chat-container {
+            flex: 1;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            max-height: calc(100vh - 100px); /* Adjust based on header and input height */
+            overflow-y: auto; /* Always show vertical scrollbar */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            scrollbar-width: thin; /* Firefox */
+            scrollbar-color: #888 #f2f2f2; /* Firefox */
+        }
+        .message {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            white-space: pre-wrap; /* Preserve whitespace and wrap text */
+        }
+        .message.user {
+            background-color: #d1e7dd;
+            align-self: flex-end;
+        }
+        .message.other {
+            background-color: #f8d7da;
+            align-self: flex-start;
+        }
+        .input-container {
+            display: flex;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .input-container input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .input-container button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .input-container button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Username: <span id="username">JohnDoe</span>
+    </div>
+    <div class="chat-container" id="chat-container">
+        <!-- Chat messages will be appended here -->
+    </div>
+    <div class="input-container">
+        <input type="text" id="message-input" placeholder="Type a message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    <script>
+        // Function to append message to chat container
+        function appendMessage(message, sender) {
+            const messageElement = document.createElement('div');
+            messageElement.classList.add('message');
+            messageElement.classList.add(sender === 'user' ? 'user' : 'other');
+            messageElement.innerHTML = message.replace(/\n/g, '<br>'); // Replace newline characters with <br>
+            document.getElementById('chat-container').appendChild(messageElement);
+            // Scroll to the bottom of the chat container
+            document.getElementById('chat-container').scrollTop = document.getElementById('chat-container').scrollHeight;
+        }
+
+        // Function to send message
+        function sendMessage() {
+            const inputElement = document.getElementById('message-input');
+            const message = inputElement.value;
+            if (message.trim() === '') return;
+
+            // Append user's message to chat container
+            appendMessage(message, 'user');
+
+            // Clear the input field
+            inputElement.value = '';
+
+            // Create payload
+            const payload = JSON.stringify({ username: document.getElementById('username').innerText, message: message });
+
+            // Calculate the Content-Length
+            const contentLength = new TextEncoder().encode(payload).length;
+
+            // Send the message to the server
+            fetch('/send-message', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Connection': 'keep-alive',
+                    'Content-Length': contentLength
+                },
+                body: payload
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Append server response to chat container
+                if (data.reply) {
+                    appendMessage(data.reply, 'other');
+                }
+            })
+            .catch(error => {
+                console.error('Error sending message:', error);
+            });
+        }
+
+        document.getElementById('message-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html>
