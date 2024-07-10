@@ -7,7 +7,7 @@
     // cmake运行时传入参数
     "cmake.debugConfig": {
         "args": [
-        "9999"
+        "-p","9999",
         ]
     }
 }

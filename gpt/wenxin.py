@@ -24,8 +24,6 @@ def main():
     }
 
     response = requests.request("POST", url, headers=headers, data=payload)
-
-    response = requests.request("POST", url, headers=headers, data=payload)
     data = json.loads(response.text)
     result = data.get("result")
     print(result)

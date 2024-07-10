@@ -187,7 +187,7 @@ int main(int argc, char * argv[]){
                 }
 
                 // 将新客户数据初始化，放到客户数组中
-                users[connfd].init(connfd, client_address);
+                users[connfd].init(connfd, client_address, 1);
                 LOG_INFO("new connect, fd: %d", connfd);
 
                 // 创建定时器，设置其回调函数与超时时间，然后绑定定时器与用户数据，最后将定时器添加到链表timer_lst中

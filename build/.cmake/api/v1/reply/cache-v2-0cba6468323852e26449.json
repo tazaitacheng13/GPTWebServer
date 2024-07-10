@@ -1182,6 +1182,66 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "CURL_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include/x86_64-linux-gnu"
+		},
+		{
+			"name" : "CURL_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CURL_LIBRARY_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "CURL_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libcurl.so"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_CURL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding CURL"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/lib/x86_64-linux-gnu/libcurl.so][/usr/include/x86_64-linux-gnu][c ][v7.68.0()]"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp",
 			"properties" : 
 			[
@@ -1204,6 +1264,34 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[/root/anaconda3/envs/AI/lib/libpython3.9.so][/root/anaconda3/envs/AI/include/python3.9][v3.9.19(3.9)]"
+		},
+		{
+			"name" : "JsonCpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for JsonCpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "JsonCpp_DIR-NOTFOUND"
+		},
+		{
+			"name" : "PKG_CONFIG_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "pkg-config executable"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "PKG_CONFIG_EXECUTABLE-NOTFOUND"
 		},
 		{
 			"name" : "PYTHON_DEBUG_LIBRARY",
@@ -1300,6 +1388,18 @@
 			],
 			"type" : "UNINITIALIZED",
 			"value" : ""
+		},
+		{
+			"name" : "jsoncpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for jsoncpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/jsoncpp"
 		},
 		{
 			"name" : "webserver_BINARY_DIR",

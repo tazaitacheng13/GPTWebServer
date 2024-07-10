@@ -17,8 +17,9 @@
 #include <string.h>
 #include <string>
 #include <fstream>
+#include <curl/curl.h>
+#include <sstream>
 #include "../include/json.hpp"
-
 #include "../lock/locker.h"
 #include "../http/http_conn.h"
 #include "../db/db.h"
@@ -26,6 +27,9 @@
 #include "Python.h"
 
 using json = nlohmann::json; // json处理库
+
+class util_timer;   // 前向声明
+class http_conn;
 
 class http_conn {
 public:
@@ -38,11 +42,11 @@ public:
     static const int PASSWARD_MAXLENGTH = 18;
     static const int MESSAGE_LENGTH = 1024;
     static const int RESPONSE_LENGTH = 4096;
-    // 数据库
-    static MyDB* m_db;
-    static void init_db(MyDB* db) {
-        m_db = db;
-    };
+
+    const std::string API_KEY = "7CeIPUR0rr22ZUPS0H3oSMgG";
+    const std::string SECRET_KEY = "igN0Dtp4TCIJgFQAxi1ncSAeTPLlGd2t";
+    const std::string TOKEN_URL = "https://aip.baidubce.com/oauth/2.0/token";
+    const std::string CHAT_URL = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/eb-instant?access_token=";
 
     // HTTP请求的方法，但我们只支持GET
     enum METHOD {GET = 0, POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT};
@@ -56,10 +60,18 @@ public:
     enum HTTP_CODE {NO_REQUEST, GET_REQUEST, BAD_REQUEST, NO_RESOURCE, 
     FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION, MESSAGE_REQUEST};
 
+    util_timer* timer;
+    // 数据库
+    static MyDB* m_db;
+public:
+    static void init_db(MyDB* db) {
+        m_db = db;
+    };
+
     http_conn() {}
     ~http_conn() {}
     void process();  // 处理客户端的请求
-    void init(int sockfd, const sockaddr_in & addr);
+    void init(int sockfd, const sockaddr_in & addr, int trig_mode);
     void close_conn(); // 关闭连接
     bool read(); // 非阻塞的读
     bool write(); // 非阻塞的写
@@ -77,7 +89,7 @@ public:
     bool add_blank_line();
 
     int m_sockfd; // 该HTTP连接的socket
-    util_timer* timer; // 定时器
+
 private:
     sockaddr_in m_address; // 通信的socket地址
     
@@ -132,7 +144,8 @@ private:
     char m_response[RESPONSE_LENGTH];
     char m_content_type[50];
     json response_body;
-
+    std::string send_chat_request(const char* content);
+    std::string get_access_token();
     // 文件锁
     locker m_lock;
 };

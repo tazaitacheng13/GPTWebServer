@@ -15,7 +15,7 @@ const char* error_500_form = "There was an unusual problem serving the requested
 int http_conn::m_user_count = 0;
 int http_conn::m_epollfd = -1;
 MyDB* http_conn::m_db = nullptr;
-sort_timer_lst timer_lst;
+sort_timer_lst* timer_lst = sort_timer_lst::getInstance();
 
 // 网站的根目录
 const char* doc_root = "/home/Cplus/webserver/resources";
@@ -58,7 +58,7 @@ void modfd(int epollfd, int fd, int ev) {
 }
 
 // 初始化连接
-void http_conn::init(int sockfd, const sockaddr_in & addr) {
+void http_conn::init(int sockfd, const sockaddr_in & addr, int trig_mode) {
     m_address = addr;
     m_sockfd = sockfd;
     // 端口复用
@@ -66,7 +66,7 @@ void http_conn::init(int sockfd, const sockaddr_in & addr) {
     setsockopt(m_sockfd, SOL_SOCKET, SO_REUSEPORT, &reuse, sizeof(reuse));
 
     // 添加到epoll对象中
-    addfd(m_epollfd, sockfd, true, true);
+    addfd(m_epollfd, sockfd, true, trig_mode);
     m_user_count++; // 总用户数加一
 
     // 初始化解析信息
@@ -130,12 +130,12 @@ bool http_conn::read() {
                 // 没有数据
                 break;
             }
-            timer_lst.del_timer(timer); // 删除定时器
+            timer_lst->del_timer(timer); // 删除定时器
             return false;
         }
         else if (bytes_read == 0) {
             // 对方关闭连接
-            timer_lst.del_timer(timer); // 删除定时器
+            timer_lst->del_timer(timer); // 删除定时器
             return false;
         }
         m_read_idx += bytes_read;
@@ -145,7 +145,7 @@ bool http_conn::read() {
             time_t cur = time( NULL );
             timer->expire = cur + 3 * TIMESLOT;
             printf( "adjust timer once\n" );
-            timer_lst.adjust_timer( timer );
+            timer_lst->adjust_timer( timer );
         }
     }
     LOG_INFO("读取到了数据, 长度: %d \n %s\n", m_read_idx, m_read_buf);
@@ -364,33 +364,33 @@ http_conn::HTTP_CODE http_conn::do_request() {
     }
     else if (m_method == POST && strcmp(m_url, "/send-message") == 0) {
         // 收到客户端消息
-        m_lock.lock();
-        std::ofstream file_w("/home/Cplus/webserver-master/content.txt");
-        if (!file_w.is_open()) {
-            std::cout << "content文件打开失败" << std::endl;
-        }
-        file_w.write(m_mess, strlen(m_mess));
-        file_w.close();
-        m_lock.unlock();
-        Py_Initialize();
-        // 执行一个简单的执行python脚本命令
-        // PyRun_SimpleString("print('hello world')\n");
-        PyRun_SimpleString("exec(open('/home/Cplus/webserver/gpt/wenxin.py', encoding = 'utf-8').read())");
-        // PyRun_SimpleString("exec(open('/home/Cplus/webserver/gpt/wenxin.py).read())");
-        // 撤销Py_Initialize()和随后使用Python/C API函数进行的所有初始化
-        Py_Finalize();
+        // m_lock.lock();
+        // std::ofstream file_w("/home/Cplus/webserver-master/content.txt");
+        // if (!file_w.is_open()) {
+        //     std::cout << "content文件打开失败" << std::endl;
+        // }
+        // file_w.write(m_mess, strlen(m_mess));
+        // file_w.close();
+        // m_lock.unlock();
+        // Py_Initialize();
+        // // 执行一个简单的执行python脚本命令
+        // // PyRun_SimpleString("print('hello world')\n");
+        // PyRun_SimpleString("exec(open('/home/Cplus/webserver/gpt/wenxin.py', encoding = 'utf-8').read())");
+        // // PyRun_SimpleString("exec(open('/home/Cplus/webserver/gpt/wenxin.py).read())");
+        // // 撤销Py_Initialize()和随后使用Python/C API函数进行的所有初始化
+        // Py_Finalize();
+        // m_lock.lock();
+        // std::ifstream file_r("/home/Cplus/webserver-master/response.txt");
+        // if (!file_r.is_open()) {
+        //     std::cout << "无法打开文件" << std::endl;
+        // }
+        // std::stringstream m_buff;
+        // m_buff << file_r.rdbuf();
+        // strcpy(m_response, m_buff.str().c_str());
+        // file_r.close();
+        // m_lock.unlock();
 
-        m_lock.lock();
-        std::ifstream file_r("/home/Cplus/webserver-master/response.txt");
-        if (!file_r.is_open()) {
-            std::cout << "无法打开文件" << std::endl;
-        }
-        std::stringstream m_buff;
-        m_buff << file_r.rdbuf();
-        strcpy(m_response, m_buff.str().c_str());
-        file_r.close();
-        m_lock.unlock();
-
+        strcpy(m_response, send_chat_request(m_mess).c_str());
         strcpy(m_content_type, "application/json");
         response_body["reply"] = m_response;
         strcpy(m_response, response_body.dump().c_str());
@@ -451,7 +451,7 @@ bool http_conn::write() {
                 return true;
             }
             unmap();
-            timer_lst.del_timer(timer); // 删除定时器
+            timer_lst->del_timer(timer); // 删除定时器
             return false;
         }
 
@@ -642,4 +642,64 @@ bool http_conn::find_userinfo() {
     }
     std::cout << "User information found!" << std::endl;
     return true;
+}
+
+size_t WriteCallback(void* contents, size_t size, size_t nmemb, std::string* userp) {
+    size_t totalSize = size * nmemb;
+    userp->append((char*)contents, totalSize);
+    return totalSize;
+}
+
+std::string http_conn::get_access_token() {
+    CURL* curl = curl_easy_init();
+    std::string response_string;
+    std::string url = TOKEN_URL + "?grant_type=client_credentials&client_id=" + API_KEY + "&client_secret=" + SECRET_KEY;
+
+    if(curl) {
+        curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &response_string);
+
+        CURLcode res = curl_easy_perform(curl);
+        if(res != CURLE_OK) {
+            std::cerr << "curl_easy_perform() failed: " << curl_easy_strerror(res) << std::endl;
+        }
+        curl_easy_cleanup(curl);
+    }
+    json response_token = json::parse(response_string);
+    return response_token["access_token"];
+}
+
+string http_conn::send_chat_request(const char* content) {
+    std::string access_token = get_access_token();
+    std::string url = CHAT_URL + access_token;
+
+    CURL* curl = curl_easy_init();
+    std::string response_string;
+    json payload;
+    payload["messages"][0]["role"] = "user";
+    payload["messages"][0]["content"] = content;
+
+    std::string payload_str = payload.dump();
+    if(curl) {
+        curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, payload_str.c_str());
+
+        struct curl_slist* headers = NULL;
+        headers = curl_slist_append(headers, "Content-Type: application/json");
+        curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
+
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &response_string);
+
+        CURLcode res = curl_easy_perform(curl);
+        if(res != CURLE_OK) {
+            std::cerr << "curl_easy_perform() failed: " << curl_easy_strerror(res) << std::endl;
+        }
+        curl_easy_cleanup(curl);
+        curl_slist_free_all(headers);
+    }
+    
+    json response = json::parse(response_string);
+    return response["result"];
 }

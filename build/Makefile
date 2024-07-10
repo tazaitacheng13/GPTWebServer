@@ -204,32 +204,113 @@ log/log.cpp.s:
 	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/log/log.cpp.s
 .PHONY : log/log.cpp.s
 
-main_nonactive.o: main_nonactive.cpp.o
+main_back.o: main_back.cpp.o
 
-.PHONY : main_nonactive.o
+.PHONY : main_back.o
 
 # target to build an object file
-main_nonactive.cpp.o:
-	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/main_nonactive.cpp.o
-.PHONY : main_nonactive.cpp.o
+main_back.cpp.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/main_back.cpp.o
+.PHONY : main_back.cpp.o
 
-main_nonactive.i: main_nonactive.cpp.i
+main_back.i: main_back.cpp.i
 
-.PHONY : main_nonactive.i
+.PHONY : main_back.i
 
 # target to preprocess a source file
-main_nonactive.cpp.i:
-	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/main_nonactive.cpp.i
-.PHONY : main_nonactive.cpp.i
+main_back.cpp.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/main_back.cpp.i
+.PHONY : main_back.cpp.i
 
-main_nonactive.s: main_nonactive.cpp.s
+main_back.s: main_back.cpp.s
 
-.PHONY : main_nonactive.s
+.PHONY : main_back.s
 
 # target to generate assembly for a file
-main_nonactive.cpp.s:
-	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/main_nonactive.cpp.s
-.PHONY : main_nonactive.cpp.s
+main_back.cpp.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/main_back.cpp.s
+.PHONY : main_back.cpp.s
+
+parse_arg.o: parse_arg.cpp.o
+
+.PHONY : parse_arg.o
+
+# target to build an object file
+parse_arg.cpp.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/parse_arg.cpp.o
+.PHONY : parse_arg.cpp.o
+
+parse_arg.i: parse_arg.cpp.i
+
+.PHONY : parse_arg.i
+
+# target to preprocess a source file
+parse_arg.cpp.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/parse_arg.cpp.i
+.PHONY : parse_arg.cpp.i
+
+parse_arg.s: parse_arg.cpp.s
+
+.PHONY : parse_arg.s
+
+# target to generate assembly for a file
+parse_arg.cpp.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/parse_arg.cpp.s
+.PHONY : parse_arg.cpp.s
+
+timer/lst_timer.o: timer/lst_timer.cpp.o
+
+.PHONY : timer/lst_timer.o
+
+# target to build an object file
+timer/lst_timer.cpp.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/timer/lst_timer.cpp.o
+.PHONY : timer/lst_timer.cpp.o
+
+timer/lst_timer.i: timer/lst_timer.cpp.i
+
+.PHONY : timer/lst_timer.i
+
+# target to preprocess a source file
+timer/lst_timer.cpp.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/timer/lst_timer.cpp.i
+.PHONY : timer/lst_timer.cpp.i
+
+timer/lst_timer.s: timer/lst_timer.cpp.s
+
+.PHONY : timer/lst_timer.s
+
+# target to generate assembly for a file
+timer/lst_timer.cpp.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/timer/lst_timer.cpp.s
+.PHONY : timer/lst_timer.cpp.s
+
+webserver.o: webserver.cpp.o
+
+.PHONY : webserver.o
+
+# target to build an object file
+webserver.cpp.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/webserver.cpp.o
+.PHONY : webserver.cpp.o
+
+webserver.i: webserver.cpp.i
+
+.PHONY : webserver.i
+
+# target to preprocess a source file
+webserver.cpp.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/webserver.cpp.i
+.PHONY : webserver.cpp.i
+
+webserver.s: webserver.cpp.s
+
+.PHONY : webserver.s
+
+# target to generate assembly for a file
+webserver.cpp.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/webserver.cpp.s
+.PHONY : webserver.cpp.s
 
 # Help Target
 help:
@@ -249,9 +330,18 @@ help:
 	@echo "... log/log.o"
 	@echo "... log/log.i"
 	@echo "... log/log.s"
-	@echo "... main_nonactive.o"
-	@echo "... main_nonactive.i"
-	@echo "... main_nonactive.s"
+	@echo "... main_back.o"
+	@echo "... main_back.i"
+	@echo "... main_back.s"
+	@echo "... parse_arg.o"
+	@echo "... parse_arg.i"
+	@echo "... parse_arg.s"
+	@echo "... timer/lst_timer.o"
+	@echo "... timer/lst_timer.i"
+	@echo "... timer/lst_timer.s"
+	@echo "... webserver.o"
+	@echo "... webserver.i"
+	@echo "... webserver.s"
 .PHONY : help
 
 

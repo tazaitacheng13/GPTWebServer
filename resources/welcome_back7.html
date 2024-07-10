@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Chat</title>
+    <title>Chat Page</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
             display: flex;
             flex-direction: column;
             height: 100vh;
             margin: 0;
-            font-family: Arial, sans-serif;
+            padding: 0;
         }
         .header {
-            background-color: #007bff;
+            background-color: #4CAF50;
             color: white;
             padding: 10px;
             text-align: center;
-            font-size: 1.2em;
         }
         .chat-container {
             flex: 1;
@@ -29,37 +29,56 @@
         .input-container {
             display: flex;
             padding: 10px;
-            border-top: 1px solid #ccc;
+            background-color: #f1f1f1;
         }
         #message-input {
             flex: 1;
             padding: 10px;
-            font-size: 1em;
+            font-size: 16px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
-        .message {
-            margin: 10px 0;
+        button {
             padding: 10px;
+            font-size: 16px;
+            margin-left: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
             border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .message {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
         }
         .user {
-            background-color: #d1ecf1;
+            /* background-color: #d1e7dd; */
+            text-align: right;
             align-self: flex-end;
         }
+        .user .sender {
+            font-weight: bold;
+            color: #007b55;
+        }
         .server {
-            background-color: #f8d7da;
+            /* background-color: #f8d7da; */
+            text-align: left;
             align-self: flex-start;
         }
-        .sender {
+        .server .sender {
             font-weight: bold;
-            margin-bottom: 5px;
+            color: #721c24;
         }
     </style>
 </head>
 <body>
     <div class="header">
-        智能聊天助手
+        Username: <span id="username">JohnDoe</span>
     </div>
     <div class="chat-container" id="chat-container">
         <!-- Chat messages will be appended here -->
@@ -100,7 +119,7 @@
             inputElement.value = '';
 
             // Create payload
-            const payload = JSON.stringify({ username: '智能聊天助手', message: message });
+            const payload = JSON.stringify({ username: document.getElementById('username').innerText, message: message });
 
             // Calculate the Content-Length
             const contentLength = new TextEncoder().encode(payload).length;

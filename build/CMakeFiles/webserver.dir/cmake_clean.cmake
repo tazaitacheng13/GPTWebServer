@@ -2,7 +2,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/webserver.dir/db/db.cpp.o"
   "CMakeFiles/webserver.dir/http/http_conn.cpp.o"
   "CMakeFiles/webserver.dir/log/log.cpp.o"
-  "CMakeFiles/webserver.dir/main_nonactive.cpp.o"
+  "CMakeFiles/webserver.dir/main_back.cpp.o"
+  "CMakeFiles/webserver.dir/parse_arg.cpp.o"
+  "CMakeFiles/webserver.dir/timer/lst_timer.cpp.o"
+  "CMakeFiles/webserver.dir/webserver.cpp.o"
   "webserver"
   "webserver.pdb"
 )

@@ -1,0 +1,1591 @@
+2024-07-10 00:46:59.180587 [info]: new connect, fd: 9
+2024-07-10 00:46:59.354342 [info]: 读取到了数据, 长度: 165 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+Accept: */*
+Accept-Encoding: gzip
+
+
+
+2024-07-10 00:46:59.355989 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-10 00:46:59.356044 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 00:46:59.356052 [info]: got 1 http line: User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+
+2024-07-10 00:46:59.356057 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+
+2024-07-10 00:46:59.356062 [info]: got 1 http line: Accept: */*
+
+2024-07-10 00:46:59.356067 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 00:46:59.356072 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-10 00:46:59.356076 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-10 00:46:59.356081 [info]: got 1 http line: 
+
+2024-07-10 00:46:59.357570 [info]: close fd: 9
+2024-07-10 00:47:00.015158 [info]: new connect, fd: 9
+2024-07-10 00:47:00.166425 [info]: 读取到了数据, 长度: 57 
+ PRI * HTTP/2.0
+
+SM
+
+
+
+2024-07-10 00:47:00.166526 [info]: got 1 http line: PRI * HTTP/2.0
+
+2024-07-10 00:47:00.166571 [info]: close fd: 9
+2024-07-10 00:47:00.664012 [info]: new connect, fd: 9
+2024-07-10 00:47:00.749785 [info]: 读取到了数据, 长度: 182 
+ GET /favicon.ico HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+Accept-Encoding: gzip
+Connection: close
+
+
+
+2024-07-10 00:47:00.749899 [info]: got 1 http line: GET /favicon.ico HTTP/1.1
+
+2024-07-10 00:47:00.749932 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 00:47:00.749939 [info]: got 1 http line: User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+
+2024-07-10 00:47:00.749944 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+
+2024-07-10 00:47:00.749950 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-10 00:47:00.749954 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-10 00:47:00.749959 [info]: got 1 http line: Connection: close
+
+2024-07-10 00:47:00.749964 [info]: got 1 http line: 
+
+2024-07-10 00:47:00.749987 [info]: close fd: 9
+2024-07-10 00:47:01.968155 [info]: timer tick
+2024-07-10 00:47:01.968235 [info]: current linked client: 3
+2024-07-10 00:47:11.968428 [info]: timer tick
+2024-07-10 00:47:11.968504 [info]: current linked client: 3
+2024-07-10 00:47:21.968694 [info]: timer tick
+2024-07-10 00:47:21.968750 [info]: current linked client: 3
+2024-07-10 00:47:31.968976 [info]: timer tick
+2024-07-10 00:47:31.969040 [info]: current linked client: 0
+2024-07-10 01:15:25.334530 [info]: new connect, fd: 9
+2024-07-10 01:15:32.292602 [info]: timer tick
+2024-07-10 01:15:32.292661 [info]: current linked client: 1
+2024-07-10 01:15:42.292880 [info]: timer tick
+2024-07-10 01:15:42.292937 [info]: current linked client: 1
+2024-07-10 01:15:52.312405 [info]: timer tick
+2024-07-10 01:15:52.312462 [info]: current linked client: 1
+2024-07-10 01:16:02.312627 [info]: timer tick
+2024-07-10 01:16:02.312721 [info]: close fd: 9
+2024-07-10 01:16:02.312761 [info]: current linked client: 0
+2024-07-10 01:41:56.003824 [info]: new connect, fd: 9
+2024-07-10 01:41:56.003908 [info]: 读取到了数据, 长度: 109 
+ GET /.DS_Store HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+
+
+
+2024-07-10 01:41:56.003971 [info]: got 1 http line: GET /.DS_Store HTTP/1.1
+
+2024-07-10 01:41:56.003984 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 01:41:56.003989 [info]: got 1 http line: User-Agent: Go-http-client/1.1
+
+2024-07-10 01:41:56.003994 [erro]: oop! unknow header User-Agent: Go-http-client/1.1
+
+2024-07-10 01:41:56.004000 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-10 01:41:56.004005 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-10 01:41:56.004009 [info]: got 1 http line: 
+
+2024-07-10 01:41:56.004039 [info]: close fd: 9
+2024-07-10 01:42:02.628455 [info]: timer tick
+2024-07-10 01:42:02.628528 [info]: current linked client: 1
+2024-07-10 01:42:12.628712 [info]: timer tick
+2024-07-10 01:42:12.628773 [info]: current linked client: 1
+2024-07-10 01:42:22.628971 [info]: timer tick
+2024-07-10 01:42:22.629028 [info]: current linked client: 1
+2024-07-10 01:42:32.629221 [info]: timer tick
+2024-07-10 01:42:32.629310 [info]: current linked client: 0
+2024-07-10 04:36:24.271744 [info]: new connect, fd: 9
+2024-07-10 04:36:24.271869 [info]: 读取到了数据, 长度: 45 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+
+
+
+2024-07-10 04:36:24.271897 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-10 04:36:24.271911 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 04:36:24.271919 [info]: got 1 http line: 
+
+2024-07-10 04:36:24.272731 [info]: close fd: 9
+2024-07-10 04:36:24.713239 [info]: timer tick
+2024-07-10 04:36:24.713298 [info]: current linked client: 1
+2024-07-10 04:36:34.713498 [info]: timer tick
+2024-07-10 04:36:34.713577 [info]: current linked client: 1
+2024-07-10 04:36:44.713756 [info]: timer tick
+2024-07-10 04:36:44.713814 [info]: current linked client: 1
+2024-07-10 04:36:54.723004 [info]: timer tick
+2024-07-10 04:36:54.723065 [info]: current linked client: 0
+2024-07-10 05:27:27.599154 [info]: new connect, fd: 9
+2024-07-10 05:27:27.599238 [info]: 读取到了数据, 长度: 94 
+ 
+
+2024-07-10 05:27:35.331365 [info]: timer tick
+2024-07-10 05:27:35.331423 [info]: current linked client: 1
+2024-07-10 05:27:45.331626 [info]: timer tick
+2024-07-10 05:27:45.331715 [info]: current linked client: 1
+2024-07-10 05:27:55.331910 [info]: timer tick
+2024-07-10 05:27:55.331969 [info]: current linked client: 1
+2024-07-10 05:28:05.332129 [info]: timer tick
+2024-07-10 05:28:05.332199 [info]: close fd: 9
+2024-07-10 05:28:05.332241 [info]: current linked client: 0
+2024-07-10 07:40:50.139652 [info]: new connect, fd: 9
+2024-07-10 07:40:50.140511 [info]: 读取到了数据, 长度: 27 
+ MGLNDD_47.108.186.120_9999
+
+
+2024-07-10 07:40:56.644919 [info]: timer tick
+2024-07-10 07:40:56.644983 [info]: current linked client: 1
+2024-07-10 07:41:00.140806 [info]: client closed or some errors happened
+2024-07-10 07:41:00.140897 [info]: close fd: 9
+2024-07-10 07:41:06.645131 [info]: timer tick
+2024-07-10 07:41:06.645219 [info]: current linked client: 1
+2024-07-10 07:41:16.645381 [info]: timer tick
+2024-07-10 07:41:16.645442 [info]: current linked client: 1
+2024-07-10 07:41:26.645626 [info]: timer tick
+2024-07-10 07:41:26.645717 [info]: current linked client: 0
+2024-07-10 08:26:49.190583 [info]: new connect, fd: 9
+2024-07-10 08:26:49.190917 [info]: 读取到了数据, 长度: 123 
+ GET http://passport.baidu.com/ HTTP/1.1
+Host: passport.baidu.com:80
+Accept-Encoding: gzip, deflate
+Connection: close
+
+
+
+2024-07-10 08:26:49.190952 [info]: got 1 http line: GET http://passport.baidu.com/ HTTP/1.1
+
+2024-07-10 08:26:49.190962 [info]: got 1 http line: Host: passport.baidu.com:80
+
+2024-07-10 08:26:49.190968 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 08:26:49.190973 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 08:26:49.190978 [info]: got 1 http line: Connection: close
+
+2024-07-10 08:26:49.190983 [info]: got 1 http line: 
+
+2024-07-10 08:26:49.191747 [info]: close fd: 9
+2024-07-10 08:26:57.204357 [info]: timer tick
+2024-07-10 08:26:57.204418 [info]: current linked client: 1
+2024-07-10 08:27:00.173404 [info]: new connect, fd: 9
+2024-07-10 08:27:00.173489 [info]: 读取到了数据, 长度: 3 
+ 
+
+2024-07-10 08:27:07.204638 [info]: timer tick
+2024-07-10 08:27:07.204711 [info]: current linked client: 2
+2024-07-10 08:27:07.894419 [info]: new connect, fd: 10
+2024-07-10 08:27:07.894525 [info]: 读取到了数据, 长度: 9 
+ 
+
+2024-07-10 08:27:08.104706 [info]: client closed or some errors happened
+2024-07-10 08:27:08.104788 [info]: close fd: 9
+2024-07-10 08:27:15.824063 [info]: client closed or some errors happened
+2024-07-10 08:27:15.824161 [info]: close fd: 10
+2024-07-10 08:27:17.204888 [info]: timer tick
+2024-07-10 08:27:17.204954 [info]: current linked client: 3
+2024-07-10 08:27:27.205108 [info]: timer tick
+2024-07-10 08:27:27.205176 [info]: current linked client: 2
+2024-07-10 08:27:37.221742 [info]: timer tick
+2024-07-10 08:27:37.221811 [info]: current linked client: 0
+2024-07-10 09:11:29.442425 [info]: new connect, fd: 9
+2024-07-10 09:11:29.442534 [info]: 读取到了数据, 长度: 111 
+ GET /.git/config HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+
+
+
+2024-07-10 09:11:29.442788 [info]: got 1 http line: GET /.git/config HTTP/1.1
+
+2024-07-10 09:11:29.442829 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 09:11:29.442836 [info]: got 1 http line: User-Agent: Go-http-client/1.1
+
+2024-07-10 09:11:29.442841 [erro]: oop! unknow header User-Agent: Go-http-client/1.1
+
+2024-07-10 09:11:29.442847 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-10 09:11:29.442852 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-10 09:11:29.442856 [info]: got 1 http line: 
+
+2024-07-10 09:11:29.442880 [info]: close fd: 9
+2024-07-10 09:11:37.744266 [info]: timer tick
+2024-07-10 09:11:37.744350 [info]: current linked client: 1
+2024-07-10 09:11:47.744568 [info]: timer tick
+2024-07-10 09:11:47.744643 [info]: current linked client: 1
+2024-07-10 09:11:57.744840 [info]: timer tick
+2024-07-10 09:11:57.744934 [info]: current linked client: 1
+2024-07-10 09:12:07.745099 [info]: timer tick
+2024-07-10 09:12:07.745181 [info]: current linked client: 0
+2024-07-10 10:26:51.729712 [info]: new connect, fd: 9
+2024-07-10 10:26:51.730526 [info]: 读取到了数据, 长度: 495 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Purpose: prefetch
+Sec-Purpose: prefetch;prerender
+Upgrade-Insecure-Requests: 1
+
+
+
+2024-07-10 10:26:51.730968 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-10 10:26:51.731002 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:26:51.731012 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:26:51.731019 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:26:51.731027 [info]: got 1 http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-10 10:26:51.731034 [erro]: oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-10 10:26:51.731041 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:26:51.731047 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:26:51.731077 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:26:51.731085 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:26:51.731092 [info]: got 1 http line: Purpose: prefetch
+
+2024-07-10 10:26:51.731099 [erro]: oop! unknow header Purpose: prefetch
+
+2024-07-10 10:26:51.731107 [info]: got 1 http line: Sec-Purpose: prefetch;prerender
+
+2024-07-10 10:26:51.731112 [erro]: oop! unknow header Sec-Purpose: prefetch;prerender
+
+2024-07-10 10:26:51.731116 [info]: got 1 http line: Upgrade-Insecure-Requests: 1
+
+2024-07-10 10:26:51.731121 [erro]: oop! unknow header Upgrade-Insecure-Requests: 1
+
+2024-07-10 10:26:51.731126 [info]: got 1 http line: 
+
+2024-07-10 10:26:51.732741 [info]: close fd: 9
+2024-07-10 10:26:53.495189 [info]: new connect, fd: 9
+2024-07-10 10:26:53.495527 [info]: 读取到了数据, 长度: 391 
+ GET /favicon.ico HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Referer: http://47.108.186.120:9999/
+
+
+
+2024-07-10 10:26:53.495846 [info]: got 1 http line: GET /favicon.ico HTTP/1.1
+
+2024-07-10 10:26:53.495906 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:26:53.495918 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:26:53.495927 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:26:53.495934 [info]: got 1 http line: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+
+2024-07-10 10:26:53.495942 [erro]: oop! unknow header Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+
+2024-07-10 10:26:53.495949 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:26:53.495957 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:26:53.495964 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:26:53.495971 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:26:53.495978 [info]: got 1 http line: Referer: http://47.108.186.120:9999/
+
+2024-07-10 10:26:53.495985 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/
+
+2024-07-10 10:26:53.495992 [info]: got 1 http line: 
+
+2024-07-10 10:26:53.496022 [info]: close fd: 9
+2024-07-10 10:26:54.914934 [info]: timer tick
+2024-07-10 10:26:54.915006 [info]: current linked client: 2
+2024-07-10 10:26:58.524567 [info]: new connect, fd: 9
+2024-07-10 10:26:58.524651 [info]: 读取到了数据, 长度: 644 
+ POST /login HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 26
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/
+Upgrade-Insecure-Requests: 1
+
+username=RuiX&password=123
+
+2024-07-10 10:26:58.524698 [info]: got 1 http line: POST /login HTTP/1.1
+
+2024-07-10 10:26:58.524711 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:26:58.524717 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:26:58.524731 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:26:58.524739 [info]: got 1 http line: Content-Length: 26
+
+2024-07-10 10:26:58.524747 [info]: got 1 http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-10 10:26:58.524754 [erro]: oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-10 10:26:58.524761 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:26:58.524766 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:26:58.524771 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:26:58.524784 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:26:58.524789 [info]: got 1 http line: Cache-Control: max-age=0
+
+2024-07-10 10:26:58.524793 [erro]: oop! unknow header Cache-Control: max-age=0
+
+2024-07-10 10:26:58.524798 [info]: got 1 http line: Content-Type: application/x-www-form-urlencoded
+
+2024-07-10 10:26:58.524802 [erro]: oop! unknow header Content-Type: application/x-www-form-urlencoded
+
+2024-07-10 10:26:58.524807 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:26:58.524812 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:26:58.524816 [info]: got 1 http line: Referer: http://47.108.186.120:9999/
+
+2024-07-10 10:26:58.524821 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/
+
+2024-07-10 10:26:58.524825 [info]: got 1 http line: Upgrade-Insecure-Requests: 1
+
+2024-07-10 10:26:58.524830 [erro]: oop! unknow header Upgrade-Insecure-Requests: 1
+
+2024-07-10 10:26:58.524834 [info]: got 1 http line: 
+
+2024-07-10 10:26:58.524839 [info]: got 1 http line: username=RuiX&password=123
+
+2024-07-10 10:26:58.625592 [info]: close fd: 9
+2024-07-10 10:26:58.735472 [info]: new connect, fd: 9
+2024-07-10 10:26:58.735573 [info]: 读取到了数据, 长度: 396 
+ GET /favicon.ico HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Referer: http://47.108.186.120:9999/login
+
+
+
+2024-07-10 10:26:58.735625 [info]: got 1 http line: GET /favicon.ico HTTP/1.1
+
+2024-07-10 10:26:58.735637 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:26:58.735642 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:26:58.735647 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:26:58.735652 [info]: got 1 http line: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+
+2024-07-10 10:26:58.735657 [erro]: oop! unknow header Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+
+2024-07-10 10:26:58.735662 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:26:58.735667 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:26:58.735672 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:26:58.735676 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:26:58.735681 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:26:58.735685 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:26:58.735690 [info]: got 1 http line: 
+
+2024-07-10 10:26:58.735705 [info]: close fd: 9
+2024-07-10 10:27:01.885399 [info]: new connect, fd: 9
+2024-07-10 10:27:01.885481 [info]: 读取到了数据, 长度: 466 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 41
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"JohnDoe","message":"你好"}
+
+2024-07-10 10:27:01.885529 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 10:27:01.885546 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:27:01.885552 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:27:01.885565 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:27:01.885570 [info]: got 1 http line: Content-Length: 41
+
+2024-07-10 10:27:01.885576 [info]: got 1 http line: Accept: */*
+
+2024-07-10 10:27:01.885581 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 10:27:01.885585 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:27:01.885590 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:27:01.885595 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:27:01.885599 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:27:01.885604 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 10:27:01.885609 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 10:27:01.885613 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:27:01.885618 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:27:01.885622 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:27:01.885627 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:27:01.885631 [info]: got 1 http line: 
+
+2024-07-10 10:27:01.885636 [info]: got 1 http line: {"username":"JohnDoe","message":"你好"}
+
+2024-07-10 10:27:06.127679 [info]: timer tick
+2024-07-10 10:27:06.127739 [info]: current linked client: 5
+2024-07-10 10:27:16.411922 [info]: timer tick
+2024-07-10 10:27:16.411973 [info]: current linked client: 5
+2024-07-10 10:27:28.864470 [info]: timer tick
+2024-07-10 10:27:28.864532 [info]: close fd: 9
+2024-07-10 10:27:28.864575 [info]: current linked client: 1
+2024-07-10 10:27:39.599562 [info]: timer tick
+2024-07-10 10:27:39.599615 [info]: current linked client: 0
+2024-07-10 10:29:42.593784 [info]: new connect, fd: 9
+2024-07-10 10:29:42.594573 [info]: 读取到了数据, 长度: 466 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 41
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"JohnDoe","message":"你好"}
+
+2024-07-10 10:29:42.594634 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 10:29:42.594648 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:29:42.594655 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:29:42.594661 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:29:42.594667 [info]: got 1 http line: Content-Length: 41
+
+2024-07-10 10:29:42.594674 [info]: got 1 http line: Accept: */*
+
+2024-07-10 10:29:42.594680 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 10:29:42.594685 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:29:42.594691 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:29:42.594697 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:29:42.594702 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:29:42.594708 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 10:29:42.594714 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 10:29:42.594719 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:29:42.594725 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:29:42.594731 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:29:42.594743 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:29:42.594749 [info]: got 1 http line: 
+
+2024-07-10 10:29:42.594755 [info]: got 1 http line: {"username":"JohnDoe","message":"你好"}
+
+2024-07-10 10:30:37.473900 [info]: new connect, fd: 9
+2024-07-10 10:30:37.474759 [info]: 读取到了数据, 长度: 466 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 41
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"JohnDoe","message":"你好"}
+
+2024-07-10 10:30:37.474834 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 10:30:37.474854 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:30:37.474861 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:30:37.474866 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:30:37.474871 [info]: got 1 http line: Content-Length: 41
+
+2024-07-10 10:30:37.474877 [info]: got 1 http line: Accept: */*
+
+2024-07-10 10:30:37.474882 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 10:30:37.474887 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:30:37.474891 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:30:37.474896 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:30:37.474910 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:30:37.474917 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 10:30:37.474925 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 10:30:37.474932 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:30:37.474939 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:30:37.474946 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:30:37.474953 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:30:37.474959 [info]: got 1 http line: 
+
+2024-07-10 10:30:37.474966 [info]: got 1 http line: {"username":"JohnDoe","message":"你好"}
+
+2024-07-10 10:31:20.185960 [info]: new connect, fd: 9
+2024-07-10 10:31:20.186805 [info]: 读取到了数据, 长度: 466 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 41
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"JohnDoe","message":"你好"}
+
+2024-07-10 10:31:20.187254 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 10:31:20.187289 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:31:20.187298 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:31:20.187306 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:31:20.187314 [info]: got 1 http line: Content-Length: 41
+
+2024-07-10 10:31:20.187321 [info]: got 1 http line: Accept: */*
+
+2024-07-10 10:31:20.187327 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 10:31:20.187334 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:31:20.187341 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:31:20.187360 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:31:20.187367 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:31:20.187374 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 10:31:20.187380 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 10:31:20.187387 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:31:20.187394 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:31:20.187400 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:31:20.187407 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:31:20.187414 [info]: got 1 http line: 
+
+2024-07-10 10:31:20.187421 [info]: got 1 http line: {"username":"JohnDoe","message":"你好"}
+
+2024-07-10 10:32:37.293775 [info]: new connect, fd: 9
+2024-07-10 10:32:37.294590 [info]: 读取到了数据, 长度: 466 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 41
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"JohnDoe","message":"你好"}
+
+2024-07-10 10:32:37.294651 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 10:32:37.294665 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:32:37.294671 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:32:37.294676 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:32:37.294681 [info]: got 1 http line: Content-Length: 41
+
+2024-07-10 10:32:37.294687 [info]: got 1 http line: Accept: */*
+
+2024-07-10 10:32:37.294691 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 10:32:37.294696 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:32:37.294701 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:32:37.294706 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:32:37.294711 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:32:37.294715 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 10:32:37.294720 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 10:32:37.294725 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:32:37.294730 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:32:37.294734 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:32:37.294739 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:32:37.294744 [info]: got 1 http line: 
+
+2024-07-10 10:32:37.294749 [info]: got 1 http line: {"username":"JohnDoe","message":"你好"}
+
+2024-07-10 10:32:44.792702 [info]: timer tick
+2024-07-10 10:32:44.792766 [info]: current linked client: 1
+2024-07-10 10:33:14.657928 [info]: timer tick
+2024-07-10 10:33:14.657982 [info]: close fd: 9
+2024-07-10 10:33:14.658017 [info]: current linked client: 0
+2024-07-10 10:33:19.584615 [info]: new connect, fd: 9
+2024-07-10 10:33:19.585615 [info]: 读取到了数据, 长度: 466 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 41
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"JohnDoe","message":"你好"}
+
+2024-07-10 10:33:19.585687 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 10:33:19.585733 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:33:19.585741 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:33:19.585756 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:33:19.585763 [info]: got 1 http line: Content-Length: 41
+
+2024-07-10 10:33:19.585770 [info]: got 1 http line: Accept: */*
+
+2024-07-10 10:33:19.585777 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 10:33:19.585782 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:33:19.585787 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:33:19.585791 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:33:19.585796 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:33:19.585801 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 10:33:19.585805 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 10:33:19.585810 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:33:19.585815 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:33:19.585820 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:33:19.585824 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:33:19.585829 [info]: got 1 http line: 
+
+2024-07-10 10:33:19.585834 [info]: got 1 http line: {"username":"JohnDoe","message":"你好"}
+
+2024-07-10 10:33:25.551290 [info]: timer tick
+2024-07-10 10:33:25.551341 [info]: current linked client: 1
+2024-07-10 10:33:25.551550 [info]: close fd: 9
+2024-07-10 10:33:35.551499 [info]: timer tick
+2024-07-10 10:33:35.551566 [info]: current linked client: 1
+2024-07-10 10:33:45.551757 [info]: timer tick
+2024-07-10 10:33:45.551821 [info]: current linked client: 1
+2024-07-10 10:33:55.481086 [info]: new connect, fd: 9
+2024-07-10 10:33:55.481936 [info]: 读取到了数据, 长度: 522 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 97
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"JohnDoe","message":"请问c++11的完美转发是什么，给我一个代码示例"}
+
+2024-07-10 10:33:55.481980 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 10:33:55.481997 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:33:55.482003 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:33:55.482008 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:33:55.482013 [info]: got 1 http line: Content-Length: 97
+
+2024-07-10 10:33:55.482018 [info]: got 1 http line: Accept: */*
+
+2024-07-10 10:33:55.482023 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 10:33:55.482028 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:33:55.482033 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:33:55.482038 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:33:55.482042 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:33:55.482068 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 10:33:55.482073 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 10:33:55.482078 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:33:55.482083 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:33:55.482087 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:33:55.482092 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:33:55.482096 [info]: got 1 http line: 
+
+2024-07-10 10:33:55.482101 [info]: got 1 http line: {"username":"JohnDoe","message":"请问c++11的完美转发是什么，给我一个代码示例"}
+
+2024-07-10 10:33:55.551995 [info]: timer tick
+2024-07-10 10:33:55.552101 [info]: close fd: 9
+2024-07-10 10:33:55.552142 [info]: current linked client: 1
+2024-07-10 10:34:05.552337 [info]: timer tick
+2024-07-10 10:34:05.552417 [info]: current linked client: 1
+2024-07-10 10:34:15.552607 [info]: timer tick
+2024-07-10 10:34:15.552679 [info]: current linked client: 1
+2024-07-10 10:37:47.403198 [info]: new connect, fd: 9
+2024-07-10 10:37:47.404888 [info]: 读取到了数据, 长度: 522 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 97
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"JohnDoe","message":"请问c++11的完美转发是什么，给我一个代码示例"}
+
+2024-07-10 10:37:47.405312 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 10:37:47.405359 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:37:47.405370 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:37:47.405379 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:37:47.405386 [info]: got 1 http line: Content-Length: 97
+
+2024-07-10 10:37:47.405394 [info]: got 1 http line: Accept: */*
+
+2024-07-10 10:37:47.405401 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 10:37:47.405409 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:37:47.405416 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:37:47.405424 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:37:47.405431 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:37:47.405436 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 10:37:47.405440 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 10:37:47.405445 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:37:47.405450 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:37:47.405455 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:37:47.405460 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:37:47.405465 [info]: got 1 http line: 
+
+2024-07-10 10:37:47.405469 [info]: got 1 http line: {"username":"JohnDoe","message":"请问c++11的完美转发是什么，给我一个代码示例"}
+
+2024-07-10 10:37:52.340796 [info]: close fd: 9
+2024-07-10 10:37:56.999056 [info]: timer tick
+2024-07-10 10:37:56.999120 [info]: current linked client: 1
+2024-07-10 10:38:16.999199 [info]: timer tick
+2024-07-10 10:38:17.000847 [info]: current linked client: 1
+2024-07-10 10:38:37.000981 [info]: timer tick
+2024-07-10 10:38:37.001071 [info]: current linked client: 1
+2024-07-10 10:38:57.001200 [info]: timer tick
+2024-07-10 10:38:57.001280 [info]: current linked client: 0
+2024-07-10 10:46:21.523106 [info]: new connect, fd: 9
+2024-07-10 10:46:21.523450 [info]: 读取到了数据, 长度: 495 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Purpose: prefetch
+Sec-Purpose: prefetch;prerender
+Upgrade-Insecure-Requests: 1
+
+
+
+2024-07-10 10:46:21.523488 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-10 10:46:21.523508 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:46:21.523514 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:46:21.523519 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:46:21.523525 [info]: got 1 http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-10 10:46:21.523530 [erro]: oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-10 10:46:21.523535 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:46:21.523540 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:46:21.523545 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:46:21.523549 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:46:21.523554 [info]: got 1 http line: Purpose: prefetch
+
+2024-07-10 10:46:21.523559 [erro]: oop! unknow header Purpose: prefetch
+
+2024-07-10 10:46:21.523564 [info]: got 1 http line: Sec-Purpose: prefetch;prerender
+
+2024-07-10 10:46:21.523568 [erro]: oop! unknow header Sec-Purpose: prefetch;prerender
+
+2024-07-10 10:46:21.523573 [info]: got 1 http line: Upgrade-Insecure-Requests: 1
+
+2024-07-10 10:46:21.523578 [erro]: oop! unknow header Upgrade-Insecure-Requests: 1
+
+2024-07-10 10:46:21.523582 [info]: got 1 http line: 
+
+2024-07-10 10:46:21.524369 [info]: close fd: 9
+2024-07-10 10:46:22.314499 [info]: new connect, fd: 9
+2024-07-10 10:46:22.314594 [info]: 读取到了数据, 长度: 391 
+ GET /favicon.ico HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Referer: http://47.108.186.120:9999/
+
+
+
+2024-07-10 10:46:22.314648 [info]: got 1 http line: GET /favicon.ico HTTP/1.1
+
+2024-07-10 10:46:22.314667 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:46:22.314673 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:46:22.314679 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:46:22.314684 [info]: got 1 http line: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+
+2024-07-10 10:46:22.314689 [erro]: oop! unknow header Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+
+2024-07-10 10:46:22.314694 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:46:22.314698 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:46:22.314703 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:46:22.314720 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:46:22.314725 [info]: got 1 http line: Referer: http://47.108.186.120:9999/
+
+2024-07-10 10:46:22.314730 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/
+
+2024-07-10 10:46:22.314734 [info]: got 1 http line: 
+
+2024-07-10 10:46:22.314753 [info]: close fd: 9
+2024-07-10 10:46:25.678491 [info]: new connect, fd: 9
+2024-07-10 10:46:25.678575 [info]: 读取到了数据, 长度: 644 
+ POST /login HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 26
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/
+Upgrade-Insecure-Requests: 1
+
+username=RuiX&password=123
+
+2024-07-10 10:46:25.678625 [info]: got 1 http line: POST /login HTTP/1.1
+
+2024-07-10 10:46:25.678637 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:46:25.678642 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:46:25.678647 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:46:25.678652 [info]: got 1 http line: Content-Length: 26
+
+2024-07-10 10:46:25.678658 [info]: got 1 http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-10 10:46:25.678663 [erro]: oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-10 10:46:25.678668 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:46:25.678672 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:46:25.678677 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:46:25.678682 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:46:25.678686 [info]: got 1 http line: Cache-Control: max-age=0
+
+2024-07-10 10:46:25.678691 [erro]: oop! unknow header Cache-Control: max-age=0
+
+2024-07-10 10:46:25.678695 [info]: got 1 http line: Content-Type: application/x-www-form-urlencoded
+
+2024-07-10 10:46:25.678705 [erro]: oop! unknow header Content-Type: application/x-www-form-urlencoded
+
+2024-07-10 10:46:25.678714 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:46:25.678720 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:46:25.678727 [info]: got 1 http line: Referer: http://47.108.186.120:9999/
+
+2024-07-10 10:46:25.678733 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/
+
+2024-07-10 10:46:25.678740 [info]: got 1 http line: Upgrade-Insecure-Requests: 1
+
+2024-07-10 10:46:25.678745 [erro]: oop! unknow header Upgrade-Insecure-Requests: 1
+
+2024-07-10 10:46:25.678751 [info]: got 1 http line: 
+
+2024-07-10 10:46:25.678758 [info]: got 1 http line: username=RuiX&password=123
+
+2024-07-10 10:46:25.739572 [info]: close fd: 9
+2024-07-10 10:46:25.852476 [info]: new connect, fd: 9
+2024-07-10 10:46:25.852729 [info]: 读取到了数据, 长度: 396 
+ GET /favicon.ico HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Referer: http://47.108.186.120:9999/login
+
+
+
+2024-07-10 10:46:25.852792 [info]: got 1 http line: GET /favicon.ico HTTP/1.1
+
+2024-07-10 10:46:25.852804 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:46:25.852810 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:46:25.852815 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:46:25.852820 [info]: got 1 http line: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+
+2024-07-10 10:46:25.852825 [erro]: oop! unknow header Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+
+2024-07-10 10:46:25.852829 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:46:25.852834 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:46:25.852839 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:46:25.852843 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:46:25.852848 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:46:25.852867 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:46:25.852872 [info]: got 1 http line: 
+
+2024-07-10 10:46:25.852890 [info]: close fd: 9
+2024-07-10 10:46:37.054636 [info]: timer tick
+2024-07-10 10:46:37.054713 [info]: current linked client: 4
+2024-07-10 10:46:57.054816 [info]: timer tick
+2024-07-10 10:46:57.054900 [info]: current linked client: 4
+2024-07-10 10:47:17.057134 [info]: timer tick
+2024-07-10 10:47:17.057204 [info]: current linked client: 4
+2024-07-10 10:47:21.351489 [info]: new connect, fd: 9
+2024-07-10 10:47:21.351831 [info]: 读取到了数据, 长度: 577 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 151
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"JohnDoe","message":"0到9的数字能组成的所有三位数有哪些，写一个程序实现，将结果添加到一个数组，用c++"}
+
+2024-07-10 10:47:21.351890 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 10:47:21.351902 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:47:21.351908 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:47:21.351913 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:47:21.351918 [info]: got 1 http line: Content-Length: 151
+
+2024-07-10 10:47:21.351923 [info]: got 1 http line: Accept: */*
+
+2024-07-10 10:47:21.351928 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 10:47:21.351933 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:47:21.351938 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:47:21.351942 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:47:21.351947 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:47:21.351952 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 10:47:21.351957 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 10:47:21.351961 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:47:21.351966 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:47:21.351971 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:47:21.351984 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:47:21.351989 [info]: got 1 http line: 
+
+2024-07-10 10:47:21.351994 [info]: got 1 http line: {"username":"JohnDoe","message":"0到9的数字能组成的所有三位数有哪些，写一个程序实现，将结果添加到一个数组，用c++"}
+
+2024-07-10 10:47:26.996770 [info]: close fd: 9
+2024-07-10 10:47:37.057288 [info]: timer tick
+2024-07-10 10:47:37.057366 [info]: current linked client: 1
+2024-07-10 10:47:55.666611 [info]: new connect, fd: 9
+2024-07-10 10:47:55.666993 [info]: 读取到了数据, 长度: 493 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 68
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"JohnDoe","message":"软件测试最重要的是什么"}
+
+2024-07-10 10:47:55.667071 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 10:47:55.667096 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:47:55.667103 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:47:55.667108 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:47:55.667113 [info]: got 1 http line: Content-Length: 68
+
+2024-07-10 10:47:55.667118 [info]: got 1 http line: Accept: */*
+
+2024-07-10 10:47:55.667123 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 10:47:55.667128 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:47:55.667133 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:47:55.667138 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:47:55.667142 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:47:55.667147 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 10:47:55.667161 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 10:47:55.667169 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:47:55.667176 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:47:55.667183 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:47:55.667190 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:47:55.667197 [info]: got 1 http line: 
+
+2024-07-10 10:47:55.667204 [info]: got 1 http line: {"username":"JohnDoe","message":"软件测试最重要的是什么"}
+
+2024-07-10 10:47:57.057501 [info]: timer tick
+2024-07-10 10:47:57.057571 [info]: current linked client: 2
+2024-07-10 10:48:01.178452 [info]: close fd: 9
+2024-07-10 10:48:17.076583 [info]: timer tick
+2024-07-10 10:48:17.076673 [info]: current linked client: 2
+2024-07-10 10:48:37.076764 [info]: timer tick
+2024-07-10 10:48:37.076841 [info]: current linked client: 1
+2024-07-10 10:48:57.076938 [info]: timer tick
+2024-07-10 10:48:57.077016 [info]: current linked client: 0
+2024-07-10 10:51:49.793800 [info]: new connect, fd: 9
+2024-07-10 10:51:49.794803 [info]: 读取到了数据, 长度: 495 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Purpose: prefetch
+Sec-Purpose: prefetch;prerender
+Upgrade-Insecure-Requests: 1
+
+
+
+2024-07-10 10:51:49.794929 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-10 10:51:49.794984 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:51:49.794992 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:51:49.794997 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:51:49.795002 [info]: got 1 http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-10 10:51:49.795007 [erro]: oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-10 10:51:49.795012 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:51:49.795017 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:51:49.795022 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:51:49.795032 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:51:49.795037 [info]: got 1 http line: Purpose: prefetch
+
+2024-07-10 10:51:49.795042 [erro]: oop! unknow header Purpose: prefetch
+
+2024-07-10 10:51:49.795046 [info]: got 1 http line: Sec-Purpose: prefetch;prerender
+
+2024-07-10 10:51:49.795051 [erro]: oop! unknow header Sec-Purpose: prefetch;prerender
+
+2024-07-10 10:51:49.795055 [info]: got 1 http line: Upgrade-Insecure-Requests: 1
+
+2024-07-10 10:51:49.795060 [erro]: oop! unknow header Upgrade-Insecure-Requests: 1
+
+2024-07-10 10:51:49.795064 [info]: got 1 http line: 
+
+2024-07-10 10:51:49.795141 [info]: close fd: 9
+2024-07-10 10:51:50.275132 [info]: new connect, fd: 9
+2024-07-10 10:51:50.275301 [info]: 读取到了数据, 长度: 391 
+ GET /favicon.ico HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Referer: http://47.108.186.120:9999/
+
+
+
+2024-07-10 10:51:50.275323 [info]: got 1 http line: GET /favicon.ico HTTP/1.1
+
+2024-07-10 10:51:50.275332 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:51:50.275337 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:51:50.275343 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:51:50.275348 [info]: got 1 http line: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+
+2024-07-10 10:51:50.275353 [erro]: oop! unknow header Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+
+2024-07-10 10:51:50.275357 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:51:50.275362 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:51:50.275367 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:51:50.275371 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:51:50.275376 [info]: got 1 http line: Referer: http://47.108.186.120:9999/
+
+2024-07-10 10:51:50.275381 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/
+
+2024-07-10 10:51:50.275385 [info]: got 1 http line: 
+
+2024-07-10 10:51:50.275400 [info]: close fd: 9
+2024-07-10 10:51:54.789785 [info]: new connect, fd: 9
+2024-07-10 10:51:54.790049 [info]: 读取到了数据, 长度: 644 
+ POST /login HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 26
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/
+Upgrade-Insecure-Requests: 1
+
+username=RuiX&password=123
+
+2024-07-10 10:51:54.790089 [info]: got 1 http line: POST /login HTTP/1.1
+
+2024-07-10 10:51:54.790098 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:51:54.790103 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:51:54.790108 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:51:54.790113 [info]: got 1 http line: Content-Length: 26
+
+2024-07-10 10:51:54.790118 [info]: got 1 http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-10 10:51:54.790123 [erro]: oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-10 10:51:54.790127 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:51:54.790132 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:51:54.790137 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:51:54.790141 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:51:54.790146 [info]: got 1 http line: Cache-Control: max-age=0
+
+2024-07-10 10:51:54.790150 [erro]: oop! unknow header Cache-Control: max-age=0
+
+2024-07-10 10:51:54.790155 [info]: got 1 http line: Content-Type: application/x-www-form-urlencoded
+
+2024-07-10 10:51:54.790160 [erro]: oop! unknow header Content-Type: application/x-www-form-urlencoded
+
+2024-07-10 10:51:54.790165 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:51:54.790170 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:51:54.790174 [info]: got 1 http line: Referer: http://47.108.186.120:9999/
+
+2024-07-10 10:51:54.790179 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/
+
+2024-07-10 10:51:54.790183 [info]: got 1 http line: Upgrade-Insecure-Requests: 1
+
+2024-07-10 10:51:54.790188 [erro]: oop! unknow header Upgrade-Insecure-Requests: 1
+
+2024-07-10 10:51:54.790192 [info]: got 1 http line: 
+
+2024-07-10 10:51:54.790197 [info]: got 1 http line: username=RuiX&password=123
+
+2024-07-10 10:51:54.791611 [info]: close fd: 9
+2024-07-10 10:51:54.874058 [info]: new connect, fd: 9
+2024-07-10 10:51:54.874139 [info]: 读取到了数据, 长度: 396 
+ GET /favicon.ico HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Referer: http://47.108.186.120:9999/login
+
+
+
+2024-07-10 10:51:54.874158 [info]: got 1 http line: GET /favicon.ico HTTP/1.1
+
+2024-07-10 10:51:54.874166 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:51:54.874172 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:51:54.874177 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:51:54.874181 [info]: got 1 http line: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+
+2024-07-10 10:51:54.874198 [erro]: oop! unknow header Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+
+2024-07-10 10:51:54.874203 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:51:54.874207 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:51:54.874212 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:51:54.874216 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:51:54.874221 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:51:54.874226 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:51:54.874230 [info]: got 1 http line: 
+
+2024-07-10 10:51:54.874241 [info]: close fd: 9
+2024-07-10 10:51:57.113244 [info]: timer tick
+2024-07-10 10:51:57.113325 [info]: current linked client: 4
+2024-07-10 10:52:17.113436 [info]: timer tick
+2024-07-10 10:52:17.113507 [info]: current linked client: 4
+2024-07-10 10:52:31.607397 [info]: new connect, fd: 9
+2024-07-10 10:52:31.607520 [info]: 读取到了数据, 长度: 504 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 79
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"智能聊天助手","message":"c++的智能指针如何初始化"}
+
+2024-07-10 10:52:31.607547 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 10:52:31.607562 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 10:52:31.607571 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:52:31.607584 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 10:52:31.607594 [info]: got 1 http line: Content-Length: 79
+
+2024-07-10 10:52:31.607599 [info]: got 1 http line: Accept: */*
+
+2024-07-10 10:52:31.607604 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 10:52:31.607609 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 10:52:31.607614 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 10:52:31.607619 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:52:31.607624 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 10:52:31.607629 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 10:52:31.607634 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 10:52:31.607638 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 10:52:31.607643 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 10:52:31.607648 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:52:31.607652 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 10:52:31.607657 [info]: got 1 http line: 
+
+2024-07-10 10:52:31.607662 [info]: got 1 http line: {"username":"智能聊天助手","message":"c++的智能指针如何初始化"}
+
+2024-07-10 10:52:35.884555 [info]: close fd: 9
+2024-07-10 10:52:37.114397 [info]: timer tick
+2024-07-10 10:52:37.114461 [info]: current linked client: 5
+2024-07-10 10:52:57.114564 [info]: timer tick
+2024-07-10 10:52:57.114643 [info]: current linked client: 1
+2024-07-10 10:53:17.114728 [info]: timer tick
+2024-07-10 10:53:17.114790 [info]: current linked client: 1
+2024-07-10 10:53:37.114871 [info]: timer tick
+2024-07-10 10:53:37.114937 [info]: current linked client: 0
+2024-07-10 11:17:41.677701 [info]: new connect, fd: 9
+2024-07-10 11:17:41.678056 [info]: 读取到了数据, 长度: 529 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 103
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"智能聊天助手","message":"事业单位是什么，与政府部门的区别是什么"}
+
+2024-07-10 11:17:41.678120 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 11:17:41.678131 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 11:17:41.678137 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 11:17:41.678142 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 11:17:41.678146 [info]: got 1 http line: Content-Length: 103
+
+2024-07-10 11:17:41.678151 [info]: got 1 http line: Accept: */*
+
+2024-07-10 11:17:41.678156 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 11:17:41.678161 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 11:17:41.678165 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 11:17:41.678170 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 11:17:41.678174 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 11:17:41.678179 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 11:17:41.678184 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 11:17:41.678188 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 11:17:41.678193 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 11:17:41.678198 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 11:17:41.678203 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 11:17:41.678207 [info]: got 1 http line: 
+
+2024-07-10 11:17:41.678212 [info]: got 1 http line: {"username":"智能聊天助手","message":"事业单位是什么，与政府部门的区别是什么"}
+
+2024-07-10 11:17:45.489117 [info]: close fd: 9
+2024-07-10 11:17:57.119515 [info]: timer tick
+2024-07-10 11:17:57.119590 [info]: current linked client: 1
+2024-07-10 11:18:17.119684 [info]: timer tick
+2024-07-10 11:18:17.119768 [info]: current linked client: 1
+2024-07-10 11:18:37.119851 [info]: timer tick
+2024-07-10 11:18:37.119914 [info]: current linked client: 1
+2024-07-10 11:18:43.721833 [info]: new connect, fd: 9
+2024-07-10 11:18:43.722190 [info]: 读取到了数据, 长度: 513 
+ POST /send-message HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 88
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+Content-Type: application/json
+Origin: http://47.108.186.120:9999
+Referer: http://47.108.186.120:9999/login
+
+{"username":"智能聊天助手","message":"高校校长一般是什么级别的干部"}
+
+2024-07-10 11:18:43.722237 [info]: got 1 http line: POST /send-message HTTP/1.1
+
+2024-07-10 11:18:43.722251 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-10 11:18:43.722257 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 11:18:43.722263 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+
+2024-07-10 11:18:43.722269 [info]: got 1 http line: Content-Length: 88
+
+2024-07-10 11:18:43.722274 [info]: got 1 http line: Accept: */*
+
+2024-07-10 11:18:43.722291 [erro]: oop! unknow header Accept: */*
+
+2024-07-10 11:18:43.722295 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-10 11:18:43.722300 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-10 11:18:43.722305 [info]: got 1 http line: Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 11:18:43.722310 [erro]: oop! unknow header Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6
+
+2024-07-10 11:18:43.722314 [info]: got 1 http line: Content-Type: application/json
+
+2024-07-10 11:18:43.722319 [erro]: oop! unknow header Content-Type: application/json
+
+2024-07-10 11:18:43.722323 [info]: got 1 http line: Origin: http://47.108.186.120:9999
+
+2024-07-10 11:18:43.722328 [erro]: oop! unknow header Origin: http://47.108.186.120:9999
+
+2024-07-10 11:18:43.722333 [info]: got 1 http line: Referer: http://47.108.186.120:9999/login
+
+2024-07-10 11:18:43.722337 [erro]: oop! unknow header Referer: http://47.108.186.120:9999/login
+
+2024-07-10 11:18:43.722342 [info]: got 1 http line: 
+
+2024-07-10 11:18:43.722346 [info]: got 1 http line: {"username":"智能聊天助手","message":"高校校长一般是什么级别的干部"}
+
+2024-07-10 11:18:46.341464 [info]: close fd: 9
+2024-07-10 11:18:57.120000 [info]: timer tick
+2024-07-10 11:18:57.120073 [info]: current linked client: 1
+2024-07-10 11:19:17.120181 [info]: timer tick
+2024-07-10 11:19:17.120269 [info]: current linked client: 1
+2024-07-10 11:19:37.120346 [info]: timer tick
+2024-07-10 11:19:37.120407 [info]: current linked client: 1
+2024-07-10 11:19:57.120483 [info]: timer tick
+2024-07-10 11:19:57.120551 [info]: current linked client: 0

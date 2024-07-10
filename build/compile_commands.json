@@ -6,8 +6,8 @@
 },
 {
   "directory": "/home/Cplus/webserver/build",
-  "command": "/usr/bin/c++   -I/root/anaconda3/envs/AI/include/python3.9  -g   -o CMakeFiles/webserver.dir/main_nonactive.cpp.o -c /home/Cplus/webserver/main_nonactive.cpp",
-  "file": "/home/Cplus/webserver/main_nonactive.cpp"
+  "command": "/usr/bin/c++   -I/root/anaconda3/envs/AI/include/python3.9  -g   -o CMakeFiles/webserver.dir/main_back.cpp.o -c /home/Cplus/webserver/main_back.cpp",
+  "file": "/home/Cplus/webserver/main_back.cpp"
 },
 {
   "directory": "/home/Cplus/webserver/build",
@@ -18,5 +18,20 @@
   "directory": "/home/Cplus/webserver/build",
   "command": "/usr/bin/c++   -I/root/anaconda3/envs/AI/include/python3.9  -g   -o CMakeFiles/webserver.dir/log/log.cpp.o -c /home/Cplus/webserver/log/log.cpp",
   "file": "/home/Cplus/webserver/log/log.cpp"
+},
+{
+  "directory": "/home/Cplus/webserver/build",
+  "command": "/usr/bin/c++   -I/root/anaconda3/envs/AI/include/python3.9  -g   -o CMakeFiles/webserver.dir/timer/lst_timer.cpp.o -c /home/Cplus/webserver/timer/lst_timer.cpp",
+  "file": "/home/Cplus/webserver/timer/lst_timer.cpp"
+},
+{
+  "directory": "/home/Cplus/webserver/build",
+  "command": "/usr/bin/c++   -I/root/anaconda3/envs/AI/include/python3.9  -g   -o CMakeFiles/webserver.dir/webserver.cpp.o -c /home/Cplus/webserver/webserver.cpp",
+  "file": "/home/Cplus/webserver/webserver.cpp"
+},
+{
+  "directory": "/home/Cplus/webserver/build",
+  "command": "/usr/bin/c++   -I/root/anaconda3/envs/AI/include/python3.9  -g   -o CMakeFiles/webserver.dir/parse_arg.cpp.o -c /home/Cplus/webserver/parse_arg.cpp",
+  "file": "/home/Cplus/webserver/parse_arg.cpp"
 }
 ]
