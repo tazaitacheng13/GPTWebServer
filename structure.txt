@@ -1,0 +1,121 @@
+.
+├── build
+│   ├── 2024_07_04_ServerLog
+│   ├── 2024_07_05_ServerLog
+│   ├── 2024_07_06_ServerLog
+│   ├── 2024_07_07_ServerLog
+│   ├── 2024_07_08_ServerLog
+│   ├── 2024_07_09_ServerLog
+│   ├── 2024_07_10_ServerLog
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   │   ├── 3.16.3
+│   │   │   ├── CMakeCCompiler.cmake
+│   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   ├── CompilerIdC
+│   │   │   │   ├── a.out
+│   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   └── tmp
+│   │   │   └── CompilerIdCXX
+│   │   │       ├── a.out
+│   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │       └── tmp
+│   │   ├── cmake.check_cache
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   ├── CMakeOutput.log
+│   │   ├── CMakeTmp
+│   │   ├── Makefile2
+│   │   ├── Makefile.cmake
+│   │   ├── progress.marks
+│   │   ├── TargetDirectories.txt
+│   │   └── webserver.dir
+│   │       ├── build.make
+│   │       ├── cmake_clean.cmake
+│   │       ├── CXX.includecache
+│   │       ├── db
+│   │       │   └── db.cpp.o
+│   │       ├── DependInfo.cmake
+│   │       ├── depend.internal
+│   │       ├── depend.make
+│   │       ├── flags.make
+│   │       ├── http
+│   │       │   └── http_conn.cpp.o
+│   │       ├── link.txt
+│   │       ├── log
+│   │       │   └── log.cpp.o
+│   │       ├── main.cpp.o
+│   │       ├── parse_arg.cpp.o
+│   │       ├── progress.make
+│   │       ├── timer
+│   │       │   └── lst_timer.cpp.o
+│   │       └── webserver.cpp.o
+│   ├── cmake_install.cmake
+│   ├── compile_commands.json
+│   ├── Makefile
+│   └── webserver
+├── CMakeLists.txt
+├── db
+│   ├── db.cpp
+│   └── db.h
+├── gpt
+│   ├── gpt.py
+│   └── wenxin.py
+├── http
+│   ├── http_conn.cpp
+│   └── http_conn.h
+├── include
+│   └── json.hpp
+├── lock
+│   └── locker.h
+├── log
+│   ├── blocking_queue_back.h
+│   ├── blocking_queue.h
+│   ├── log.cpp
+│   └── log.h
+├── main.cpp
+├── parse_arg.cpp
+├── parse_arg.h
+├── README.md
+├── resources
+│   ├── images
+│   │   ├── image1.jpg
+│   │   ├── 密码错误.jpg
+│   │   ├── 注册页面.jpg
+│   │   ├── 登录界面.jpg
+│   │   └── 聊天页面.jpg
+│   ├── index.html
+│   ├── login_failed.html
+│   ├── login.html
+│   ├── register.html
+│   ├── regist_success.html
+│   └── welcome.html
+├── structure.txt
+├── test_presure
+│   └── webbench-1.5
+│       ├── ChangeLog
+│       ├── COPYRIGHT
+│       ├── debian
+│       │   ├── changelog
+│       │   ├── control
+│       │   ├── copyright
+│       │   ├── dirs
+│       │   └── rules
+│       ├── Makefile
+│       ├── socket.c
+│       ├── tags
+│       ├── webbench
+│       ├── webbench.1
+│       ├── webbench.c
+│       └── webbench.o
+├── threadpool
+│   └── threadpool.h
+├── timer
+│   ├── lst_timer.cpp
+│   └── lst_timer.h
+├── webserver.cpp
+└── webserver.h
+
+26 directories, 92 files

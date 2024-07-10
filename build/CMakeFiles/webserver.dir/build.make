@@ -70,18 +70,18 @@ CMakeFiles/webserver.dir/http/http_conn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/http/http_conn.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Cplus/webserver/http/http_conn.cpp -o CMakeFiles/webserver.dir/http/http_conn.cpp.s
 
-CMakeFiles/webserver.dir/main_back.cpp.o: CMakeFiles/webserver.dir/flags.make
-CMakeFiles/webserver.dir/main_back.cpp.o: ../main_back.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Cplus/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/webserver.dir/main_back.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/main_back.cpp.o -c /home/Cplus/webserver/main_back.cpp
+CMakeFiles/webserver.dir/main.cpp.o: CMakeFiles/webserver.dir/flags.make
+CMakeFiles/webserver.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Cplus/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/webserver.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/main.cpp.o -c /home/Cplus/webserver/main.cpp
 
-CMakeFiles/webserver.dir/main_back.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserver.dir/main_back.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Cplus/webserver/main_back.cpp > CMakeFiles/webserver.dir/main_back.cpp.i
+CMakeFiles/webserver.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserver.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Cplus/webserver/main.cpp > CMakeFiles/webserver.dir/main.cpp.i
 
-CMakeFiles/webserver.dir/main_back.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/main_back.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Cplus/webserver/main_back.cpp -o CMakeFiles/webserver.dir/main_back.cpp.s
+CMakeFiles/webserver.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Cplus/webserver/main.cpp -o CMakeFiles/webserver.dir/main.cpp.s
 
 CMakeFiles/webserver.dir/db/db.cpp.o: CMakeFiles/webserver.dir/flags.make
 CMakeFiles/webserver.dir/db/db.cpp.o: ../db/db.cpp
@@ -151,7 +151,7 @@ CMakeFiles/webserver.dir/parse_arg.cpp.s: cmake_force
 # Object files for target webserver
 webserver_OBJECTS = \
 "CMakeFiles/webserver.dir/http/http_conn.cpp.o" \
-"CMakeFiles/webserver.dir/main_back.cpp.o" \
+"CMakeFiles/webserver.dir/main.cpp.o" \
 "CMakeFiles/webserver.dir/db/db.cpp.o" \
 "CMakeFiles/webserver.dir/log/log.cpp.o" \
 "CMakeFiles/webserver.dir/timer/lst_timer.cpp.o" \
@@ -162,7 +162,7 @@ webserver_OBJECTS = \
 webserver_EXTERNAL_OBJECTS =
 
 webserver: CMakeFiles/webserver.dir/http/http_conn.cpp.o
-webserver: CMakeFiles/webserver.dir/main_back.cpp.o
+webserver: CMakeFiles/webserver.dir/main.cpp.o
 webserver: CMakeFiles/webserver.dir/db/db.cpp.o
 webserver: CMakeFiles/webserver.dir/log/log.cpp.o
 webserver: CMakeFiles/webserver.dir/timer/lst_timer.cpp.o

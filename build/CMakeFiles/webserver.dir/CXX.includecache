@@ -14,14 +14,6 @@ cstring
 mysql/mysql.h
 -
 
-/home/Cplus/webserver/http/http_conn.cpp
-http_conn.h
-/home/Cplus/webserver/http/http_conn.h
-../timer/lst_timer.h
-/home/Cplus/webserver/timer/lst_timer.h
-../log/log.h
-/home/Cplus/webserver/log/log.h
-
 /home/Cplus/webserver/http/http_conn.h
 sys/epoll.h
 -
@@ -494,11 +486,7 @@ string
 blocking_queue.h
 /home/Cplus/webserver/log/blocking_queue.h
 
-/home/Cplus/webserver/main_back.cpp
-parse_arg.h
-/home/Cplus/webserver/parse_arg.h
-
-/home/Cplus/webserver/parse_arg.cpp
+/home/Cplus/webserver/main.cpp
 parse_arg.h
 /home/Cplus/webserver/parse_arg.h
 
@@ -518,10 +506,6 @@ cstdio
 ../lock/locker.h
 /home/Cplus/webserver/lock/locker.h
 
-/home/Cplus/webserver/timer/lst_timer.cpp
-lst_timer.h
-/home/Cplus/webserver/timer/lst_timer.h
-
 /home/Cplus/webserver/timer/lst_timer.h
 stdio.h
 -
@@ -535,10 +519,6 @@ arpa/inet.h
 /home/Cplus/webserver/http/http_conn.h
 ../log/log.h
 /home/Cplus/webserver/log/log.h
-
-/home/Cplus/webserver/webserver.cpp
-webserver.h
-/home/Cplus/webserver/webserver.h
 
 /home/Cplus/webserver/webserver.h
 iostream

@@ -204,32 +204,32 @@ log/log.cpp.s:
 	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/log/log.cpp.s
 .PHONY : log/log.cpp.s
 
-main_back.o: main_back.cpp.o
+main.o: main.cpp.o
 
-.PHONY : main_back.o
+.PHONY : main.o
 
 # target to build an object file
-main_back.cpp.o:
-	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/main_back.cpp.o
-.PHONY : main_back.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-main_back.i: main_back.cpp.i
+main.i: main.cpp.i
 
-.PHONY : main_back.i
+.PHONY : main.i
 
 # target to preprocess a source file
-main_back.cpp.i:
-	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/main_back.cpp.i
-.PHONY : main_back.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main_back.s: main_back.cpp.s
+main.s: main.cpp.s
 
-.PHONY : main_back.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-main_back.cpp.s:
-	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/main_back.cpp.s
-.PHONY : main_back.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 parse_arg.o: parse_arg.cpp.o
 
@@ -330,9 +330,9 @@ help:
 	@echo "... log/log.o"
 	@echo "... log/log.i"
 	@echo "... log/log.s"
-	@echo "... main_back.o"
-	@echo "... main_back.i"
-	@echo "... main_back.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... parse_arg.o"
 	@echo "... parse_arg.i"
 	@echo "... parse_arg.s"

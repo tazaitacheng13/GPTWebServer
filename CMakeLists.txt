@@ -16,7 +16,7 @@ project(webserver VERSION 0.1.0 LANGUAGES C CXX)
 
 set (SOURCES
     ./http/http_conn.cpp
-    main_back.cpp
+    main.cpp
     ./db/db.cpp
     ./log/log.cpp
     ./timer/lst_timer.cpp

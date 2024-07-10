@@ -6,8 +6,8 @@
 },
 {
   "directory": "/home/Cplus/webserver/build",
-  "command": "/usr/bin/c++   -I/root/anaconda3/envs/AI/include/python3.9  -g   -o CMakeFiles/webserver.dir/main_back.cpp.o -c /home/Cplus/webserver/main_back.cpp",
-  "file": "/home/Cplus/webserver/main_back.cpp"
+  "command": "/usr/bin/c++   -I/root/anaconda3/envs/AI/include/python3.9  -g   -o CMakeFiles/webserver.dir/main.cpp.o -c /home/Cplus/webserver/main.cpp",
+  "file": "/home/Cplus/webserver/main.cpp"
 },
 {
   "directory": "/home/Cplus/webserver/build",
