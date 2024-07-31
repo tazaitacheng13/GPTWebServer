@@ -1,0 +1,1165 @@
+2024-07-12 00:21:01.735137 [info]: new connect, fd: 9
+2024-07-12 00:21:01.735280 [info]: 读取到了数据, 长度: 45 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+
+
+
+2024-07-12 00:21:01.735299 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 00:21:01.735327 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 00:21:01.735335 [info]: got 1 http line: 
+
+2024-07-12 00:21:01.735403 [info]: close fd: 9
+2024-07-12 00:21:17.928111 [info]: timer tick
+2024-07-12 00:21:17.928198 [info]: current linked client: 1
+2024-07-12 00:21:37.928282 [info]: timer tick
+2024-07-12 00:21:37.928367 [info]: current linked client: 1
+2024-07-12 00:21:57.928464 [info]: timer tick
+2024-07-12 00:21:57.928534 [info]: current linked client: 1
+2024-07-12 00:22:17.928617 [info]: timer tick
+2024-07-12 00:22:17.928691 [info]: current linked client: 0
+2024-07-12 00:42:30.242377 [info]: new connect, fd: 9
+2024-07-12 00:42:30.242492 [info]: 读取到了数据, 长度: 3 
+ 
+
+2024-07-12 00:42:30.869092 [info]: new connect, fd: 10
+2024-07-12 00:42:30.869195 [info]: 读取到了数据, 长度: 123 
+ GET http://passport.baidu.com/ HTTP/1.1
+Host: passport.baidu.com:80
+Accept-Encoding: gzip, deflate
+Connection: close
+
+
+
+2024-07-12 00:42:30.869226 [info]: got 1 http line: GET http://passport.baidu.com/ HTTP/1.1
+
+2024-07-12 00:42:30.869239 [info]: got 1 http line: Host: passport.baidu.com:80
+
+2024-07-12 00:42:30.869244 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-12 00:42:30.869250 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-12 00:42:30.869255 [info]: got 1 http line: Connection: close
+
+2024-07-12 00:42:30.869260 [info]: got 1 http line: 
+
+2024-07-12 00:42:30.869323 [info]: close fd: 10
+2024-07-12 00:42:35.905740 [info]: new connect, fd: 10
+2024-07-12 00:42:35.905852 [info]: 读取到了数据, 长度: 9 
+ 
+
+2024-07-12 00:42:37.932798 [info]: timer tick
+2024-07-12 00:42:37.932892 [info]: current linked client: 3
+2024-07-12 00:42:38.169462 [info]: client closed or some errors happened
+2024-07-12 00:42:38.169564 [info]: close fd: 9
+2024-07-12 00:42:43.831001 [info]: client closed or some errors happened
+2024-07-12 00:42:43.831090 [info]: close fd: 10
+2024-07-12 00:42:57.933045 [info]: timer tick
+2024-07-12 00:42:57.933134 [info]: current linked client: 3
+2024-07-12 00:43:17.933248 [info]: timer tick
+2024-07-12 00:43:17.933338 [info]: current linked client: 3
+2024-07-12 00:43:37.933446 [info]: timer tick
+2024-07-12 00:43:37.933520 [info]: current linked client: 0
+2024-07-12 00:53:39.617306 [info]: new connect, fd: 9
+2024-07-12 00:53:39.619892 [info]: 读取到了数据, 长度: 108 
+ CONNECT 45.61.137.126:7227 HTTP/1.1
+Host: 45.61.137.126:7227
+User-Agent: Python/3.9 python-socks/2.0.3
+
+
+
+2024-07-12 00:53:39.620167 [info]: got 1 http line: CONNECT 45.61.137.126:7227 HTTP/1.1
+
+2024-07-12 00:53:39.620192 [info]: close fd: 9
+2024-07-12 00:53:57.935634 [info]: timer tick
+2024-07-12 00:53:57.935703 [info]: current linked client: 1
+2024-07-12 00:54:17.935806 [info]: timer tick
+2024-07-12 00:54:17.935891 [info]: current linked client: 1
+2024-07-12 00:54:37.936019 [info]: timer tick
+2024-07-12 00:54:37.936109 [info]: current linked client: 1
+2024-07-12 00:54:57.936190 [info]: timer tick
+2024-07-12 00:54:57.936259 [info]: current linked client: 0
+2024-07-12 01:17:03.364828 [info]: new connect, fd: 9
+2024-07-12 01:17:03.365190 [info]: 读取到了数据, 长度: 82 
+ 
+
+2024-07-12 01:17:03.365243 [info]: got 1 http line: 
+
+2024-07-12 01:17:03.365284 [info]: close fd: 9
+2024-07-12 01:17:13.407515 [info]: new connect, fd: 9
+2024-07-12 01:17:13.407726 [info]: 读取到了数据, 长度: 257 
+ 
+
+2024-07-12 01:17:17.940465 [info]: timer tick
+2024-07-12 01:17:17.940526 [info]: current linked client: 2
+2024-07-12 01:17:33.180796 [info]: client closed or some errors happened
+2024-07-12 01:17:33.180945 [info]: close fd: 9
+2024-07-12 01:17:37.940670 [info]: timer tick
+2024-07-12 01:17:37.940752 [info]: current linked client: 2
+2024-07-12 01:17:57.940835 [info]: timer tick
+2024-07-12 01:17:57.940915 [info]: current linked client: 2
+2024-07-12 01:18:17.941027 [info]: timer tick
+2024-07-12 01:18:17.941121 [info]: current linked client: 0
+2024-07-12 01:39:05.604829 [info]: new connect, fd: 9
+2024-07-12 01:39:05.607000 [info]: 读取到了数据, 长度: 263 
+ 
+
+2024-07-12 01:39:17.945073 [info]: timer tick
+2024-07-12 01:39:17.945142 [info]: current linked client: 1
+2024-07-12 01:39:37.945246 [info]: timer tick
+2024-07-12 01:39:37.945335 [info]: current linked client: 1
+2024-07-12 01:39:38.519065 [info]: new connect, fd: 10
+2024-07-12 01:39:38.521658 [info]: 读取到了数据, 长度: 263 
+ 
+
+2024-07-12 01:39:57.945454 [info]: timer tick
+2024-07-12 01:39:57.945552 [info]: current linked client: 2
+2024-07-12 01:40:17.945659 [info]: timer tick
+2024-07-12 01:40:17.945739 [info]: close fd: 9
+2024-07-12 01:40:17.945782 [info]: current linked client: 1
+2024-07-12 01:40:37.945911 [info]: timer tick
+2024-07-12 01:40:37.945990 [info]: current linked client: 1
+2024-07-12 01:40:57.946078 [info]: timer tick
+2024-07-12 01:40:57.946147 [info]: close fd: 10
+2024-07-12 01:40:57.946186 [info]: current linked client: 0
+2024-07-12 03:55:46.493576 [info]: new connect, fd: 9
+2024-07-12 03:55:46.503507 [info]: 读取到了数据, 长度: 243 
+ 
+
+2024-07-12 03:55:56.492220 [info]: new connect, fd: 10
+2024-07-12 03:55:56.492316 [info]: 读取到了数据, 长度: 207 
+ 
+
+2024-07-12 03:55:57.971553 [info]: timer tick
+2024-07-12 03:55:57.971622 [info]: current linked client: 2
+2024-07-12 03:56:07.860662 [info]: client closed or some errors happened
+2024-07-12 03:56:07.860745 [info]: close fd: 9
+2024-07-12 03:56:07.860812 [info]: client closed or some errors happened
+2024-07-12 03:56:07.860822 [info]: close fd: 10
+2024-07-12 03:56:17.971713 [info]: timer tick
+2024-07-12 03:56:17.971787 [info]: current linked client: 2
+2024-07-12 03:56:37.971858 [info]: timer tick
+2024-07-12 03:56:37.971932 [info]: current linked client: 2
+2024-07-12 03:56:57.972030 [info]: timer tick
+2024-07-12 03:56:57.972104 [info]: current linked client: 0
+2024-07-12 04:53:25.443676 [info]: new connect, fd: 9
+2024-07-12 04:53:28.146311 [info]: client closed or some errors happened
+2024-07-12 04:53:28.146420 [info]: close fd: 9
+2024-07-12 04:53:38.095556 [info]: timer tick
+2024-07-12 04:53:38.095630 [info]: current linked client: 1
+2024-07-12 04:53:58.095804 [info]: timer tick
+2024-07-12 04:53:58.095886 [info]: current linked client: 1
+2024-07-12 04:54:18.104899 [info]: timer tick
+2024-07-12 04:54:18.104974 [info]: current linked client: 1
+2024-07-12 04:54:38.105069 [info]: timer tick
+2024-07-12 04:54:38.105168 [info]: current linked client: 0
+2024-07-12 07:07:49.100378 [info]: new connect, fd: 9
+2024-07-12 07:07:49.100532 [info]: 读取到了数据, 长度: 106 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0
+Accept: */*
+Accept-Encoding: gzip
+
+
+
+2024-07-12 07:07:49.100566 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 07:07:49.100581 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 07:07:49.100592 [info]: got 1 http line: User-Agent: Mozilla/5.0
+
+2024-07-12 07:07:49.100601 [erro]: oop! unknow header User-Agent: Mozilla/5.0
+
+2024-07-12 07:07:49.100610 [info]: got 1 http line: Accept: */*
+
+2024-07-12 07:07:49.100619 [erro]: oop! unknow header Accept: */*
+
+2024-07-12 07:07:49.100627 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-12 07:07:49.100636 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-12 07:07:49.100644 [info]: got 1 http line: 
+
+2024-07-12 07:07:49.100729 [info]: close fd: 9
+2024-07-12 07:07:59.701850 [info]: timer tick
+2024-07-12 07:07:59.701925 [info]: current linked client: 1
+2024-07-12 07:08:19.712803 [info]: timer tick
+2024-07-12 07:08:19.712935 [info]: current linked client: 1
+2024-07-12 07:08:39.713012 [info]: timer tick
+2024-07-12 07:08:39.713089 [info]: current linked client: 1
+2024-07-12 07:08:59.713178 [info]: timer tick
+2024-07-12 07:08:59.713250 [info]: current linked client: 0
+2024-07-12 08:04:01.681882 [info]: new connect, fd: 9
+2024-07-12 08:04:01.681989 [info]: 读取到了数据, 长度: 17 
+ SSH-2.0-OpenSSH
+
+
+2024-07-12 08:04:01.682397 [info]: got 1 http line: SSH-2.0-OpenSSH
+
+2024-07-12 08:04:01.682439 [info]: close fd: 9
+2024-07-12 08:04:20.378977 [info]: timer tick
+2024-07-12 08:04:20.379061 [info]: current linked client: 1
+2024-07-12 08:04:40.379146 [info]: timer tick
+2024-07-12 08:04:40.379215 [info]: current linked client: 1
+2024-07-12 08:05:00.379299 [info]: timer tick
+2024-07-12 08:05:00.379382 [info]: current linked client: 1
+2024-07-12 08:05:20.394825 [info]: timer tick
+2024-07-12 08:05:20.394910 [info]: current linked client: 0
+2024-07-12 08:12:10.846138 [info]: new connect, fd: 9
+2024-07-12 08:12:10.846642 [info]: 读取到了数据, 长度: 110 
+ CONNECT 185.65.245.140:7227 HTTP/1.1
+Host: 185.65.245.140:7227
+User-Agent: Python/3.9 python-socks/2.0.3
+
+
+
+2024-07-12 08:12:10.846689 [info]: got 1 http line: CONNECT 185.65.245.140:7227 HTTP/1.1
+
+2024-07-12 08:12:10.846748 [info]: close fd: 9
+2024-07-12 08:12:20.483382 [info]: timer tick
+2024-07-12 08:12:20.483458 [info]: current linked client: 1
+2024-07-12 08:12:40.483537 [info]: timer tick
+2024-07-12 08:12:40.483605 [info]: current linked client: 1
+2024-07-12 08:13:00.483678 [info]: timer tick
+2024-07-12 08:13:00.483754 [info]: current linked client: 1
+2024-07-12 08:13:20.486296 [info]: timer tick
+2024-07-12 08:13:20.486373 [info]: current linked client: 0
+2024-07-12 09:12:09.617153 [info]: new connect, fd: 9
+2024-07-12 09:12:09.617280 [info]: 读取到了数据, 长度: 179 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0
+Accept: */*
+Accept-Encoding: gzip
+
+
+
+2024-07-12 09:12:09.617312 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 09:12:09.617351 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 09:12:09.617359 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0
+
+2024-07-12 09:12:09.617367 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0
+
+2024-07-12 09:12:09.617375 [info]: got 1 http line: Accept: */*
+
+2024-07-12 09:12:09.617383 [erro]: oop! unknow header Accept: */*
+
+2024-07-12 09:12:09.617390 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-12 09:12:09.617396 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-12 09:12:09.617404 [info]: got 1 http line: 
+
+2024-07-12 09:12:09.617479 [info]: close fd: 9
+2024-07-12 09:12:17.589933 [info]: new connect, fd: 9
+2024-07-12 09:12:17.590043 [info]: 读取到了数据, 长度: 219 
+ GET /favicon.ico HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/92.0.4515.159 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip
+
+
+
+2024-07-12 09:12:17.590457 [info]: got 1 http line: GET /favicon.ico HTTP/1.1
+
+2024-07-12 09:12:17.590504 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 09:12:17.590513 [info]: got 1 http line: User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/92.0.4515.159 Safari/537.36
+
+2024-07-12 09:12:17.590519 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/92.0.4515.159 Safari/537.36
+
+2024-07-12 09:12:17.590525 [info]: got 1 http line: Accept: */*
+
+2024-07-12 09:12:17.590530 [erro]: oop! unknow header Accept: */*
+
+2024-07-12 09:12:17.590535 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-12 09:12:17.590540 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-12 09:12:17.590545 [info]: got 1 http line: 
+
+2024-07-12 09:12:17.590561 [info]: close fd: 9
+2024-07-12 09:12:21.203300 [info]: timer tick
+2024-07-12 09:12:21.203387 [info]: current linked client: 2
+2024-07-12 09:12:41.203458 [info]: timer tick
+2024-07-12 09:12:41.203537 [info]: current linked client: 2
+2024-07-12 09:13:01.203613 [info]: timer tick
+2024-07-12 09:13:01.203693 [info]: current linked client: 2
+2024-07-12 09:13:21.206513 [info]: timer tick
+2024-07-12 09:13:21.206615 [info]: current linked client: 0
+2024-07-12 10:52:27.117852 [info]: new connect, fd: 9
+2024-07-12 10:52:27.117984 [info]: 读取到了数据, 长度: 239 
+ GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.3145.122 Safari/537.36
+Accept-Encoding: gzip, x-gzip, deflate
+Host: 47.108.186.120:9999
+Connection: keep-alive
+
+
+
+2024-07-12 10:52:27.118182 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 10:52:27.118221 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.3145.122 Safari/537.36
+
+2024-07-12 10:52:27.118230 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.3145.122 Safari/537.36
+
+2024-07-12 10:52:27.118236 [info]: got 1 http line: Accept-Encoding: gzip, x-gzip, deflate
+
+2024-07-12 10:52:27.118241 [erro]: oop! unknow header Accept-Encoding: gzip, x-gzip, deflate
+
+2024-07-12 10:52:27.118247 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 10:52:27.118252 [info]: got 1 http line: Connection: keep-alive
+
+2024-07-12 10:52:27.118257 [info]: got 1 http line: 
+
+2024-07-12 10:52:27.118396 [info]: close fd: 9
+2024-07-12 10:52:28.786649 [info]: new connect, fd: 9
+2024-07-12 10:52:28.786754 [info]: 读取到了数据, 长度: 198 
+ GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.9715.40 Safari/537.36
+Host: 47.108.186.120:9999
+Connection: keep-alive
+
+
+
+2024-07-12 10:52:28.786787 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 10:52:28.786824 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.9715.40 Safari/537.36
+
+2024-07-12 10:52:28.786831 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.9715.40 Safari/537.36
+
+2024-07-12 10:52:28.786837 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 10:52:28.786842 [info]: got 1 http line: Connection: keep-alive
+
+2024-07-12 10:52:28.786847 [info]: got 1 http line: 
+
+2024-07-12 10:52:28.787226 [info]: close fd: 9
+2024-07-12 10:52:41.836353 [info]: timer tick
+2024-07-12 10:52:41.836421 [info]: current linked client: 2
+2024-07-12 10:53:01.836525 [info]: timer tick
+2024-07-12 10:53:01.836607 [info]: current linked client: 2
+2024-07-12 10:53:21.836700 [info]: timer tick
+2024-07-12 10:53:21.836796 [info]: current linked client: 2
+2024-07-12 10:53:41.836909 [info]: timer tick
+2024-07-12 10:53:41.836990 [info]: current linked client: 0
+2024-07-12 12:20:07.209835 [info]: new connect, fd: 9
+2024-07-12 12:20:07.209954 [info]: 读取到了数据, 长度: 47 
+ 
+
+2024-07-12 12:20:07.209980 [info]: got 1 http line: 
+
+2024-07-12 12:20:07.209997 [info]: close fd: 9
+2024-07-12 12:20:21.853498 [info]: timer tick
+2024-07-12 12:20:21.853569 [info]: current linked client: 1
+2024-07-12 12:20:41.853650 [info]: timer tick
+2024-07-12 12:20:41.853733 [info]: current linked client: 1
+2024-07-12 12:21:01.853852 [info]: timer tick
+2024-07-12 12:21:01.853941 [info]: current linked client: 1
+2024-07-12 12:21:21.854051 [info]: timer tick
+2024-07-12 12:21:21.854154 [info]: current linked client: 0
+2024-07-12 13:42:39.039689 [info]: new connect, fd: 9
+2024-07-12 13:42:39.039784 [info]: 读取到了数据, 长度: 47 
+ 
+
+2024-07-12 13:42:39.040186 [info]: got 1 http line: 
+
+2024-07-12 13:42:39.040237 [info]: close fd: 9
+2024-07-12 13:42:41.908928 [info]: timer tick
+2024-07-12 13:42:41.908990 [info]: current linked client: 1
+2024-07-12 13:43:01.909094 [info]: timer tick
+2024-07-12 13:43:01.909176 [info]: current linked client: 1
+2024-07-12 13:43:21.909264 [info]: timer tick
+2024-07-12 13:43:21.909353 [info]: current linked client: 1
+2024-07-12 13:43:41.909445 [info]: timer tick
+2024-07-12 13:43:41.909542 [info]: current linked client: 0
+2024-07-12 14:53:58.594049 [info]: new connect, fd: 9
+2024-07-12 14:53:58.594192 [info]: 读取到了数据, 长度: 33 
+ 
+
+2024-07-12 14:54:01.923303 [info]: timer tick
+2024-07-12 14:54:01.923372 [info]: current linked client: 1
+2024-07-12 14:54:08.620757 [info]: client closed or some errors happened
+2024-07-12 14:54:08.620887 [info]: close fd: 9
+2024-07-12 14:54:09.938880 [info]: new connect, fd: 9
+2024-07-12 14:54:09.938966 [info]: 读取到了数据, 长度: 33 
+ 
+
+2024-07-12 14:54:19.939219 [info]: client closed or some errors happened
+2024-07-12 14:54:19.939303 [info]: close fd: 9
+2024-07-12 14:54:20.381515 [info]: new connect, fd: 9
+2024-07-12 14:54:20.381643 [info]: 读取到了数据, 长度: 33 
+ 
+
+2024-07-12 14:54:21.923490 [info]: timer tick
+2024-07-12 14:54:21.923560 [info]: current linked client: 3
+2024-07-12 14:54:30.382229 [info]: client closed or some errors happened
+2024-07-12 14:54:30.382319 [info]: close fd: 9
+2024-07-12 14:54:31.753542 [info]: new connect, fd: 9
+2024-07-12 14:54:31.753658 [info]: 读取到了数据, 长度: 33 
+ 
+
+2024-07-12 14:54:41.754470 [info]: client closed or some errors happened
+2024-07-12 14:54:41.754563 [info]: close fd: 9
+2024-07-12 14:54:41.923647 [info]: timer tick
+2024-07-12 14:54:41.923716 [info]: current linked client: 4
+2024-07-12 14:55:01.923810 [info]: timer tick
+2024-07-12 14:55:01.923885 [info]: current linked client: 3
+2024-07-12 14:55:21.923974 [info]: timer tick
+2024-07-12 14:55:21.924048 [info]: current linked client: 1
+2024-07-12 14:55:41.924146 [info]: timer tick
+2024-07-12 14:55:41.924244 [info]: current linked client: 0
+2024-07-12 14:56:32.792511 [info]: new connect, fd: 9
+2024-07-12 14:56:32.939526 [info]: 读取到了数据, 长度: 243 
+ 
+
+2024-07-12 14:56:41.924464 [info]: timer tick
+2024-07-12 14:56:41.924536 [info]: current linked client: 1
+2024-07-12 14:56:42.750235 [info]: client closed or some errors happened
+2024-07-12 14:56:42.750317 [info]: close fd: 9
+2024-07-12 14:57:01.924660 [info]: timer tick
+2024-07-12 14:57:01.924744 [info]: current linked client: 1
+2024-07-12 14:57:21.924830 [info]: timer tick
+2024-07-12 14:57:21.924925 [info]: current linked client: 1
+2024-07-12 14:57:41.925048 [info]: timer tick
+2024-07-12 14:57:41.925136 [info]: current linked client: 0
+2024-07-12 15:00:03.175241 [info]: new connect, fd: 9
+2024-07-12 15:00:03.257643 [info]: 读取到了数据, 长度: 206 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip
+
+
+
+2024-07-12 15:00:03.257719 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 15:00:03.257763 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 15:00:03.257770 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+
+2024-07-12 15:00:03.257777 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+
+2024-07-12 15:00:03.257782 [info]: got 1 http line: Accept: */*
+
+2024-07-12 15:00:03.257787 [erro]: oop! unknow header Accept: */*
+
+2024-07-12 15:00:03.257792 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-12 15:00:03.257797 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-12 15:00:03.257802 [info]: got 1 http line: 
+
+2024-07-12 15:00:03.257878 [info]: close fd: 9
+2024-07-12 15:00:21.925683 [info]: timer tick
+2024-07-12 15:00:21.925758 [info]: current linked client: 1
+2024-07-12 15:00:24.639780 [info]: new connect, fd: 9
+2024-07-12 15:00:24.639918 [info]: 读取到了数据, 长度: 194 
+ GET /favicon.ico HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+Accept: */*
+
+
+
+2024-07-12 15:00:24.639949 [info]: got 1 http line: GET /favicon.ico HTTP/1.1
+
+2024-07-12 15:00:24.639987 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 15:00:24.639994 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+
+2024-07-12 15:00:24.640013 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+
+2024-07-12 15:00:24.640018 [info]: got 1 http line: Accept: */*
+
+2024-07-12 15:00:24.640023 [erro]: oop! unknow header Accept: */*
+
+2024-07-12 15:00:24.640028 [info]: got 1 http line: 
+
+2024-07-12 15:00:24.640044 [info]: close fd: 9
+2024-07-12 15:00:41.925853 [info]: timer tick
+2024-07-12 15:00:41.925946 [info]: current linked client: 2
+2024-07-12 15:00:44.616541 [info]: new connect, fd: 9
+2024-07-12 15:00:44.616733 [info]: 读取到了数据, 长度: 108 
+ CONNECT 45.61.137.126:7227 HTTP/1.1
+Host: 45.61.137.126:7227
+User-Agent: Python/3.9 python-socks/2.0.3
+
+
+
+2024-07-12 15:00:44.616767 [info]: got 1 http line: CONNECT 45.61.137.126:7227 HTTP/1.1
+
+2024-07-12 15:00:44.616824 [info]: close fd: 9
+2024-07-12 15:01:01.926036 [info]: timer tick
+2024-07-12 15:01:01.926109 [info]: current linked client: 3
+2024-07-12 15:01:21.926199 [info]: timer tick
+2024-07-12 15:01:21.926274 [info]: current linked client: 2
+2024-07-12 15:01:41.926357 [info]: timer tick
+2024-07-12 15:01:41.926426 [info]: current linked client: 1
+2024-07-12 15:02:01.926579 [info]: timer tick
+2024-07-12 15:02:01.926678 [info]: current linked client: 0
+2024-07-12 16:04:57.252120 [info]: new connect, fd: 9
+2024-07-12 16:04:57.252239 [info]: client closed or some errors happened
+2024-07-12 16:04:57.252263 [info]: close fd: 9
+2024-07-12 16:04:58.212917 [info]: new connect, fd: 9
+2024-07-12 16:05:01.938586 [info]: timer tick
+2024-07-12 16:05:01.938651 [info]: current linked client: 2
+2024-07-12 16:05:04.216807 [info]: 读取到了数据, 长度: 18 
+ GET / HTTP/1.0
+
+
+
+2024-07-12 16:05:04.217272 [info]: got 1 http line: GET / HTTP/1.0
+
+2024-07-12 16:05:04.217320 [info]: close fd: 9
+2024-07-12 16:05:04.383409 [info]: new connect, fd: 9
+2024-07-12 16:05:04.383508 [info]: 读取到了数据, 长度: 22 
+ OPTIONS / HTTP/1.0
+
+
+
+2024-07-12 16:05:04.383526 [info]: got 1 http line: OPTIONS / HTTP/1.0
+
+2024-07-12 16:05:04.383542 [info]: close fd: 9
+2024-07-12 16:05:04.555592 [info]: new connect, fd: 9
+2024-07-12 16:05:04.555737 [info]: 读取到了数据, 长度: 53 
+ GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+
+
+
+2024-07-12 16:05:04.555765 [info]: got 1 http line: GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+
+2024-07-12 16:05:04.555782 [info]: close fd: 9
+2024-07-12 16:05:04.724253 [info]: new connect, fd: 9
+2024-07-12 16:05:04.724337 [info]: 读取到了数据, 长度: 7 
+ JRMI
+
+2024-07-12 16:05:09.726849 [info]: client closed or some errors happened
+2024-07-12 16:05:09.726931 [info]: close fd: 9
+2024-07-12 16:05:09.812999 [info]: new connect, fd: 9
+2024-07-12 16:05:09.813110 [info]: 读取到了数据, 长度: 4 
+ 
+
+
+
+2024-07-12 16:05:09.813132 [info]: got 1 http line: 
+
+2024-07-12 16:05:09.813143 [info]: close fd: 9
+2024-07-12 16:05:09.984036 [info]: new connect, fd: 9
+2024-07-12 16:05:09.984134 [info]: 读取到了数据, 长度: 32 
+ 
+
+2024-07-12 16:05:14.988755 [info]: client closed or some errors happened
+2024-07-12 16:05:14.988862 [info]: close fd: 9
+2024-07-12 16:05:15.074095 [info]: new connect, fd: 9
+2024-07-12 16:05:15.074202 [info]: 读取到了数据, 长度: 6 
+ HELP
+
+
+2024-07-12 16:05:15.074222 [info]: got 1 http line: HELP
+
+2024-07-12 16:05:15.074237 [info]: close fd: 9
+2024-07-12 16:05:15.241446 [info]: new connect, fd: 9
+2024-07-12 16:05:15.241533 [info]: 读取到了数据, 长度: 88 
+ 
+
+2024-07-12 16:05:20.246432 [info]: client closed or some errors happened
+2024-07-12 16:05:20.246524 [info]: close fd: 9
+2024-07-12 16:05:20.330369 [info]: new connect, fd: 9
+2024-07-12 16:05:20.330488 [info]: 读取到了数据, 长度: 110 
+ 
+
+2024-07-12 16:05:21.938788 [info]: timer tick
+2024-07-12 16:05:21.938860 [info]: current linked client: 10
+2024-07-12 16:05:25.334418 [info]: client closed or some errors happened
+2024-07-12 16:05:25.334512 [info]: close fd: 9
+2024-07-12 16:05:41.938944 [info]: timer tick
+2024-07-12 16:05:41.939012 [info]: current linked client: 10
+2024-07-12 16:06:01.939095 [info]: timer tick
+2024-07-12 16:06:01.939167 [info]: current linked client: 9
+2024-07-12 16:06:21.939268 [info]: timer tick
+2024-07-12 16:06:21.939352 [info]: current linked client: 0
+2024-07-12 16:21:18.588133 [info]: new connect, fd: 9
+2024-07-12 16:21:18.588251 [info]: 读取到了数据, 长度: 284 
+ 
+
+2024-07-12 16:21:21.942384 [info]: timer tick
+2024-07-12 16:21:21.942460 [info]: current linked client: 1
+2024-07-12 16:21:36.588542 [info]: client closed or some errors happened
+2024-07-12 16:21:36.588637 [info]: close fd: 9
+2024-07-12 16:21:36.761236 [info]: new connect, fd: 9
+2024-07-12 16:21:41.942600 [info]: timer tick
+2024-07-12 16:21:41.942680 [info]: current linked client: 2
+2024-07-12 16:21:46.762175 [info]: client closed or some errors happened
+2024-07-12 16:21:46.762264 [info]: close fd: 9
+2024-07-12 16:21:46.937246 [info]: new connect, fd: 9
+2024-07-12 16:21:46.937431 [info]: 读取到了数据, 长度: 255 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+
+
+
+2024-07-12 16:21:46.937478 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 16:21:46.937489 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 16:21:46.937495 [info]: got 1 http line: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2024-07-12 16:21:46.937501 [erro]: oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2024-07-12 16:21:46.937507 [info]: got 1 http line: User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+
+2024-07-12 16:21:46.937514 [erro]: oop! unknow header User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+
+2024-07-12 16:21:46.937521 [info]: got 1 http line: 
+
+2024-07-12 16:21:46.937619 [info]: close fd: 9
+2024-07-12 16:21:47.292376 [info]: new connect, fd: 9
+2024-07-12 16:21:47.292755 [info]: 读取到了数据, 长度: 422 
+ GET /favicon.ico HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Accept-Encoding: gzip
+
+
+
+2024-07-12 16:21:47.292800 [info]: got 1 http line: GET /favicon.ico HTTP/1.1
+
+2024-07-12 16:21:47.292814 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 16:21:47.292823 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+
+2024-07-12 16:21:47.292831 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+
+2024-07-12 16:21:47.292844 [info]: got 1 http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-12 16:21:47.292863 [erro]: oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-12 16:21:47.292868 [info]: got 1 http line: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2024-07-12 16:21:47.292874 [erro]: oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2024-07-12 16:21:47.292879 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-12 16:21:47.292884 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-12 16:21:47.292889 [info]: got 1 http line: 
+
+2024-07-12 16:21:47.292914 [info]: close fd: 9
+2024-07-12 16:21:47.666494 [info]: new connect, fd: 9
+2024-07-12 16:21:47.666605 [info]: 读取到了数据, 长度: 421 
+ GET /robots.txt HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Accept-Encoding: gzip
+
+
+
+2024-07-12 16:21:47.666635 [info]: got 1 http line: GET /robots.txt HTTP/1.1
+
+2024-07-12 16:21:47.666647 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 16:21:47.666655 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+
+2024-07-12 16:21:47.666662 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+
+2024-07-12 16:21:47.666669 [info]: got 1 http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-12 16:21:47.666676 [erro]: oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-12 16:21:47.666683 [info]: got 1 http line: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2024-07-12 16:21:47.666691 [erro]: oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2024-07-12 16:21:47.666697 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-12 16:21:47.666704 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-12 16:21:47.666710 [info]: got 1 http line: 
+
+2024-07-12 16:21:47.666741 [info]: close fd: 9
+2024-07-12 16:21:48.023405 [info]: new connect, fd: 9
+2024-07-12 16:21:48.023534 [info]: 读取到了数据, 长度: 422 
+ GET /sitemap.xml HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Accept-Encoding: gzip
+
+
+
+2024-07-12 16:21:48.023595 [info]: got 1 http line: GET /sitemap.xml HTTP/1.1
+
+2024-07-12 16:21:48.023610 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 16:21:48.023618 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+
+2024-07-12 16:21:48.023626 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+
+2024-07-12 16:21:48.023633 [info]: got 1 http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-12 16:21:48.023640 [erro]: oop! unknow header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+2024-07-12 16:21:48.023654 [info]: got 1 http line: Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2024-07-12 16:21:48.023664 [erro]: oop! unknow header Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+2024-07-12 16:21:48.023671 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-12 16:21:48.023678 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-12 16:21:48.023684 [info]: got 1 http line: 
+
+2024-07-12 16:21:48.023715 [info]: close fd: 9
+2024-07-12 16:22:01.942788 [info]: timer tick
+2024-07-12 16:22:01.942870 [info]: current linked client: 6
+2024-07-12 16:22:21.942979 [info]: timer tick
+2024-07-12 16:22:21.943063 [info]: current linked client: 5
+2024-07-12 16:22:41.943167 [info]: timer tick
+2024-07-12 16:22:41.943252 [info]: current linked client: 4
+2024-07-12 16:23:01.943358 [info]: timer tick
+2024-07-12 16:23:01.943450 [info]: current linked client: 0
+2024-07-12 16:41:34.858300 [info]: new connect, fd: 9
+2024-07-12 16:41:34.858414 [info]: 读取到了数据, 长度: 237 
+ GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.5259.34 Safari/537.36
+Accept-Encoding: gzip, x-gzip, deflate
+Host: 47.108.186.120:9999
+Connection: keep-alive
+
+
+
+2024-07-12 16:41:34.858436 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 16:41:34.858445 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.5259.34 Safari/537.36
+
+2024-07-12 16:41:34.858451 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.5259.34 Safari/537.36
+
+2024-07-12 16:41:34.858456 [info]: got 1 http line: Accept-Encoding: gzip, x-gzip, deflate
+
+2024-07-12 16:41:34.858461 [erro]: oop! unknow header Accept-Encoding: gzip, x-gzip, deflate
+
+2024-07-12 16:41:34.858466 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 16:41:34.858471 [info]: got 1 http line: Connection: keep-alive
+
+2024-07-12 16:41:34.858477 [info]: got 1 http line: 
+
+2024-07-12 16:41:34.858546 [info]: close fd: 9
+2024-07-12 16:41:35.813338 [info]: new connect, fd: 9
+2024-07-12 16:41:35.813425 [info]: 读取到了数据, 长度: 199 
+ GET / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.6289.101 Safari/537.36
+Host: 47.108.186.120:9999
+Connection: keep-alive
+
+
+
+2024-07-12 16:41:35.813445 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 16:41:35.813454 [info]: got 1 http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.6289.101 Safari/537.36
+
+2024-07-12 16:41:35.813460 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.6289.101 Safari/537.36
+
+2024-07-12 16:41:35.813465 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 16:41:35.813470 [info]: got 1 http line: Connection: keep-alive
+
+2024-07-12 16:41:35.813475 [info]: got 1 http line: 
+
+2024-07-12 16:41:35.813547 [info]: close fd: 9
+2024-07-12 16:41:42.003942 [info]: timer tick
+2024-07-12 16:41:42.004014 [info]: current linked client: 2
+2024-07-12 16:42:02.004106 [info]: timer tick
+2024-07-12 16:42:02.004175 [info]: current linked client: 2
+2024-07-12 16:42:22.008055 [info]: timer tick
+2024-07-12 16:42:22.008151 [info]: current linked client: 2
+2024-07-12 16:42:42.008285 [info]: timer tick
+2024-07-12 16:42:42.008371 [info]: current linked client: 0
+2024-07-12 17:46:43.608301 [info]: new connect, fd: 9
+2024-07-12 17:46:43.608678 [info]: 读取到了数据, 长度: 116 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 zgrab/0.x
+Accept: */*
+Accept-Encoding: gzip
+
+
+
+2024-07-12 17:46:43.608715 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 17:46:43.608724 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 17:46:43.608729 [info]: got 1 http line: User-Agent: Mozilla/5.0 zgrab/0.x
+
+2024-07-12 17:46:43.608734 [erro]: oop! unknow header User-Agent: Mozilla/5.0 zgrab/0.x
+
+2024-07-12 17:46:43.608740 [info]: got 1 http line: Accept: */*
+
+2024-07-12 17:46:43.608745 [erro]: oop! unknow header Accept: */*
+
+2024-07-12 17:46:43.608749 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-12 17:46:43.608782 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-12 17:46:43.608787 [info]: got 1 http line: 
+
+2024-07-12 17:46:43.608866 [info]: close fd: 9
+2024-07-12 17:47:02.790930 [info]: timer tick
+2024-07-12 17:47:02.791009 [info]: current linked client: 1
+2024-07-12 17:47:22.793558 [info]: timer tick
+2024-07-12 17:47:22.794055 [info]: current linked client: 1
+2024-07-12 17:47:42.794198 [info]: timer tick
+2024-07-12 17:47:42.794279 [info]: current linked client: 1
+2024-07-12 17:48:02.794387 [info]: timer tick
+2024-07-12 17:48:02.794466 [info]: current linked client: 0
+2024-07-12 18:15:43.765571 [info]: new connect, fd: 9
+2024-07-12 18:15:43.771626 [info]: 读取到了数据, 长度: 33 
+ 
+
+2024-07-12 18:16:03.132490 [info]: timer tick
+2024-07-12 18:16:03.132580 [info]: current linked client: 1
+2024-07-12 18:16:03.772186 [info]: 读取到了数据, 长度: 243 
+ 
+
+2024-07-12 18:16:23.144705 [info]: timer tick
+2024-07-12 18:16:23.144819 [info]: current linked client: 1
+2024-07-12 18:16:43.144915 [info]: timer tick
+2024-07-12 18:16:43.145010 [info]: current linked client: 1
+2024-07-12 18:17:03.145098 [info]: timer tick
+2024-07-12 18:17:03.145170 [info]: close fd: 9
+2024-07-12 18:17:03.145219 [info]: current linked client: 0
+2024-07-12 18:17:06.829582 [info]: new connect, fd: 9
+2024-07-12 18:17:09.833483 [info]: client closed or some errors happened
+2024-07-12 18:17:09.833566 [info]: close fd: 9
+2024-07-12 18:17:10.093500 [info]: new connect, fd: 9
+2024-07-12 18:17:10.169476 [info]: 读取到了数据, 长度: 243 
+ 
+
+2024-07-12 18:17:16.204727 [info]: client closed or some errors happened
+2024-07-12 18:17:16.204833 [info]: close fd: 9
+2024-07-12 18:17:16.453590 [info]: new connect, fd: 9
+2024-07-12 18:17:19.598856 [info]: 读取到了数据, 长度: 45 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+
+
+
+2024-07-12 18:17:19.598953 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 18:17:19.598970 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 18:17:19.598978 [info]: got 1 http line: 
+
+2024-07-12 18:17:19.599061 [info]: close fd: 9
+2024-07-12 18:17:23.157144 [info]: timer tick
+2024-07-12 18:17:23.157229 [info]: current linked client: 3
+2024-07-12 18:17:23.284456 [info]: new connect, fd: 9
+2024-07-12 18:17:23.284556 [info]: 读取到了数据, 长度: 165 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+Accept: */*
+Accept-Encoding: gzip
+
+
+
+2024-07-12 18:17:23.284585 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 18:17:23.284631 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 18:17:23.284641 [info]: got 1 http line: User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+
+2024-07-12 18:17:23.284650 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+
+2024-07-12 18:17:23.284657 [info]: got 1 http line: Accept: */*
+
+2024-07-12 18:17:23.284665 [erro]: oop! unknow header Accept: */*
+
+2024-07-12 18:17:23.284672 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-12 18:17:23.284678 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-12 18:17:23.284684 [info]: got 1 http line: 
+
+2024-07-12 18:17:23.284769 [info]: close fd: 9
+2024-07-12 18:17:23.864703 [info]: new connect, fd: 9
+2024-07-12 18:17:23.870461 [info]: 读取到了数据, 长度: 57 
+ PRI * HTTP/2.0
+
+SM
+
+
+
+2024-07-12 18:17:23.870539 [info]: got 1 http line: PRI * HTTP/2.0
+
+2024-07-12 18:17:23.870583 [info]: close fd: 9
+2024-07-12 18:17:24.404399 [info]: new connect, fd: 9
+2024-07-12 18:17:24.408261 [info]: 读取到了数据, 长度: 182 
+ GET /favicon.ico HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+Accept-Encoding: gzip
+Connection: close
+
+
+
+2024-07-12 18:17:24.408328 [info]: got 1 http line: GET /favicon.ico HTTP/1.1
+
+2024-07-12 18:17:24.408385 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 18:17:24.408397 [info]: got 1 http line: User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+
+2024-07-12 18:17:24.408405 [erro]: oop! unknow header User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+
+2024-07-12 18:17:24.408413 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-12 18:17:24.408420 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-12 18:17:24.408443 [info]: got 1 http line: Connection: close
+
+2024-07-12 18:17:24.408451 [info]: got 1 http line: 
+
+2024-07-12 18:17:24.408474 [info]: close fd: 9
+2024-07-12 18:17:43.157331 [info]: timer tick
+2024-07-12 18:17:43.157414 [info]: current linked client: 6
+2024-07-12 18:18:03.157537 [info]: timer tick
+2024-07-12 18:18:03.157638 [info]: current linked client: 6
+2024-07-12 18:18:23.169541 [info]: timer tick
+2024-07-12 18:18:23.169674 [info]: current linked client: 1
+2024-07-12 18:18:43.169774 [info]: timer tick
+2024-07-12 18:18:43.169848 [info]: current linked client: 0
+2024-07-12 18:47:47.290628 [info]: new connect, fd: 9
+2024-07-12 18:47:47.290737 [info]: 读取到了数据, 长度: 129 
+ GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+
+2024-07-12 18:47:47.290764 [info]: got 1 http line: GET http://example.com/ HTTP/1.1
+
+2024-07-12 18:47:47.290777 [info]: got 1 http line: Host: example.com
+
+2024-07-12 18:47:47.290784 [info]: got 1 http line: User-Agent: Go-http-client/1.1
+
+2024-07-12 18:47:47.290792 [erro]: oop! unknow header User-Agent: Go-http-client/1.1
+
+2024-07-12 18:47:47.290802 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-12 18:47:47.290808 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-12 18:47:47.290821 [info]: got 1 http line: Connection: close
+
+2024-07-12 18:47:47.290830 [info]: got 1 http line: 
+
+2024-07-12 18:47:47.290917 [info]: close fd: 9
+2024-07-12 18:47:47.858908 [info]: new connect, fd: 9
+2024-07-12 18:47:47.859235 [info]: 读取到了数据, 长度: 91 
+ CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+
+2024-07-12 18:47:47.859283 [info]: got 1 http line: CONNECT example.com:443 HTTP/1.1
+
+2024-07-12 18:47:47.859300 [info]: close fd: 9
+2024-07-12 18:47:48.369503 [info]: new connect, fd: 9
+2024-07-12 18:47:48.369578 [info]: 读取到了数据, 长度: 129 
+ GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+
+
+
+2024-07-12 18:47:48.369597 [info]: got 1 http line: GET http://example.com/ HTTP/1.1
+
+2024-07-12 18:47:48.369605 [info]: got 1 http line: Host: example.com
+
+2024-07-12 18:47:48.369611 [info]: got 1 http line: User-Agent: Go-http-client/1.1
+
+2024-07-12 18:47:48.369616 [erro]: oop! unknow header User-Agent: Go-http-client/1.1
+
+2024-07-12 18:47:48.369621 [info]: got 1 http line: Accept-Encoding: gzip
+
+2024-07-12 18:47:48.369626 [erro]: oop! unknow header Accept-Encoding: gzip
+
+2024-07-12 18:47:48.369631 [info]: got 1 http line: Connection: close
+
+2024-07-12 18:47:48.369636 [info]: got 1 http line: 
+
+2024-07-12 18:47:48.369738 [info]: close fd: 9
+2024-07-12 18:47:48.902526 [info]: new connect, fd: 9
+2024-07-12 18:47:48.902618 [info]: 读取到了数据, 长度: 91 
+ CONNECT example.com:443 HTTP/1.1
+Host: example.com:443
+User-Agent: Go-http-client/1.1
+
+
+
+2024-07-12 18:47:48.902642 [info]: got 1 http line: CONNECT example.com:443 HTTP/1.1
+
+2024-07-12 18:47:48.902668 [info]: close fd: 9
+2024-07-12 18:48:03.525776 [info]: timer tick
+2024-07-12 18:48:03.525853 [info]: current linked client: 4
+2024-07-12 18:48:23.527392 [info]: timer tick
+2024-07-12 18:48:23.527480 [info]: current linked client: 4
+2024-07-12 18:48:43.527596 [info]: timer tick
+2024-07-12 18:48:43.527668 [info]: current linked client: 4
+2024-07-12 18:49:03.527773 [info]: timer tick
+2024-07-12 18:49:03.527869 [info]: current linked client: 0
+2024-07-12 18:50:57.108574 [info]: new connect, fd: 9
+2024-07-12 18:50:57.108669 [info]: 读取到了数据, 长度: 45 
+ GET / HTTP/1.1
+Host: 47.108.186.120:9999
+
+
+
+2024-07-12 18:50:57.108840 [info]: got 1 http line: GET / HTTP/1.1
+
+2024-07-12 18:50:57.108897 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 18:50:57.108905 [info]: got 1 http line: 
+
+2024-07-12 18:50:57.109420 [info]: close fd: 9
+2024-07-12 18:51:03.553448 [info]: timer tick
+2024-07-12 18:51:03.553537 [info]: current linked client: 1
+2024-07-12 18:51:23.571185 [info]: timer tick
+2024-07-12 18:51:23.571275 [info]: current linked client: 1
+2024-07-12 18:51:43.571372 [info]: timer tick
+2024-07-12 18:51:43.571465 [info]: current linked client: 1
+2024-07-12 18:52:03.571562 [info]: timer tick
+2024-07-12 18:52:03.571638 [info]: current linked client: 0
+2024-07-12 20:01:31.807970 [info]: new connect, fd: 9
+2024-07-12 20:01:31.808079 [info]: 读取到了数据, 长度: 22 
+ {
+
+2024-07-12 20:01:37.813017 [info]: client closed or some errors happened
+2024-07-12 20:01:37.813130 [info]: close fd: 9
+2024-07-12 20:01:44.367137 [info]: timer tick
+2024-07-12 20:01:44.367216 [info]: current linked client: 1
+2024-07-12 20:02:04.367313 [info]: timer tick
+2024-07-12 20:02:04.367404 [info]: current linked client: 1
+2024-07-12 20:02:24.367531 [info]: timer tick
+2024-07-12 20:02:24.367615 [info]: current linked client: 1
+2024-07-12 20:02:44.367702 [info]: timer tick
+2024-07-12 20:02:44.367786 [info]: current linked client: 0
+2024-07-12 21:56:27.010294 [info]: new connect, fd: 9
+2024-07-12 21:56:27.010573 [info]: 读取到了数据, 长度: 318 
+ POST /onvif/device_service HTTP/1.1
+Host: 47.108.186.120:9999
+User-Agent: python-requests/2.25.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: application/soap+xml; charset=utf-8
+SOAPAction: https://www.onvif.org/ver10/device/wsdl/GetDeviceInformation
+Content-Length: 1108
+
+
+
+2024-07-12 21:56:27.010648 [info]: got 1 http line: POST /onvif/device_service HTTP/1.1
+
+2024-07-12 21:56:27.010680 [info]: got 1 http line: Host: 47.108.186.120:9999
+
+2024-07-12 21:56:27.010686 [info]: got 1 http line: User-Agent: python-requests/2.25.1
+
+2024-07-12 21:56:27.010691 [erro]: oop! unknow header User-Agent: python-requests/2.25.1
+
+2024-07-12 21:56:27.010707 [info]: got 1 http line: Accept-Encoding: gzip, deflate
+
+2024-07-12 21:56:27.010723 [erro]: oop! unknow header Accept-Encoding: gzip, deflate
+
+2024-07-12 21:56:27.010738 [info]: got 1 http line: Accept: */*
+
+2024-07-12 21:56:27.010752 [erro]: oop! unknow header Accept: */*
+
+2024-07-12 21:56:27.010759 [info]: got 1 http line: Connection: keep-alive
+
+2024-07-12 21:56:27.010767 [info]: got 1 http line: Content-Type: application/soap+xml; charset=utf-8
+
+2024-07-12 21:56:27.010781 [erro]: oop! unknow header Content-Type: application/soap+xml; charset=utf-8
+
+2024-07-12 21:56:27.010794 [info]: got 1 http line: SOAPAction: https://www.onvif.org/ver10/device/wsdl/GetDeviceInformation
+
+2024-07-12 21:56:27.010805 [erro]: oop! unknow header SOAPAction: https://www.onvif.org/ver10/device/wsdl/GetDeviceInformation
+
+2024-07-12 21:56:27.010810 [info]: got 1 http line: Content-Length: 1108
+
+2024-07-12 21:56:27.010819 [info]: got 1 http line: 
+
+2024-07-12 21:56:27.010824 [info]: got 1 http line: 
+
+2024-07-12 21:56:28.218614 [info]: 读取到了数据, 长度: 1108 
+ <?xml version="1.0" encoding="utf-8"?>
+<s:Envelope
+    xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+    <s:Header>
+        <wsse:Security
+            xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+            xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:UsernameToken>
+                <wsse:Username>admin</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordDigest">VuQZMCvg43M0m5XmI7xypINx2m4=</wsse:Password>
+                <wsse:Nonce>gpQxcoOf2Jm5c2gyhXWHAw==</wsse:Nonce>
+                <wsu:Created>2017-12-30T04:32:49Z</wsu:Created>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </s:Header>
+    <s:Body
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <GetDeviceInformation
+            xmlns="http://www.onvif.org/ver10/device/wsdl">
+        </GetDeviceInformation>
+    </s:Body>
+</s:Envelope>
+
+2024-07-12 21:56:28.218700 [info]: got 1 http line: -200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:UsernameToken>
+                <wsse:Username>admin</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordDigest">VuQZMCvg43M0m5XmI7xypINx2m4=</wsse:Password>
+                <wsse:Nonce>gpQxcoOf2Jm5c2gyhXWHAw==</wsse:Nonce>
+                <wsu:Created>2017-12-30T04:32:49Z</wsu:Created>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </s:Header>
+    <s:Body
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <GetDeviceInformation
+            xmlns="http://www.onvif.org/ver10/device/wsdl">
+        </GetDeviceInformation>
+    </s:Body>
+</s:Envelope>
+
+2024-07-12 21:56:31.968219 [info]: client closed or some errors happened
+2024-07-12 21:56:31.968303 [info]: close fd: 9
+2024-07-12 21:56:44.891313 [info]: timer tick
+2024-07-12 21:56:44.891393 [info]: current linked client: 1
+2024-07-12 21:57:04.891494 [info]: timer tick
+2024-07-12 21:57:04.891583 [info]: current linked client: 1
+2024-07-12 21:57:24.891689 [info]: timer tick
+2024-07-12 21:57:24.891767 [info]: current linked client: 1
+2024-07-12 21:57:44.891837 [info]: timer tick
+2024-07-12 21:57:44.891921 [info]: current linked client: 0

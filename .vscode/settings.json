@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "new": "cpp"
+    }
+    
+    // cmake运行时传入参数
+    "cmake.debugConfig": {
+        "args": [
+        "-p","9999",
+        ]
+    }
+}
